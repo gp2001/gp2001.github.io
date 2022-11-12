@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Gabriël Shamon
+title: Student Computer Science
+email: gabrielshamon1@hotmail.nl
+website: www.google.nl
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: gabriel
+github_username:  gp2001
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: Gabriël Poleza
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: gabrielpoleza_
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -49,16 +49,16 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hallo, mijn naam is Gabriël en ik ben een universitair Informatica student. Ik ben momenteel freelancer bij youngones en heb meerdere ervaringen opgedaan met verschillende soorten banen. Ik heb enige ervaringen opgedaan tijdens mijn studie met software en web apps.
+  Mijn meeste ervaringen zijn in: <mark>C#</mark>, maar kan ook <mark>Python</mark>, <mark>Haskell</mark>, <mark>Javascript</mark>, <mark>Css</mark>, <mark>Html</mark> en <mark>sql</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: DisneyRoute
+        link: https://www.instagram.com/disneyroute/
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -68,49 +68,84 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Hier heb ik mijn eerste ervaringen opgedaan met het werken in teamverband, snelste route-algoritme, databases en meer.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Dit project was om meer te leren met <mark>C#<mark>.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: Albert Heijn
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Teamleider
+        caption: Januari 2017 - Maart 2017
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Het opdoen van Leidinggevende en sociale ervaringen.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Ieder bedrijf heeft iemand nodig die orde houdt en eventueel instructies geeft om het bedrijf draaiende te houden. Dit kent uitdagingen om zo optimaal mogelijk, medewerkers positief bezig te houden.
+              - layout: left
+      - layout: left
+        title: Groot en Klein
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Verhuizer
+        caption: Juli 2019 - september 2019
+        quote: >
+          Het opdoen van zwaarwerk ervaringen.
+        description: | # this will include new lines to allow paragraphs
+            Een bedrijf heeft ook werkers nodig. Dit kan soms zwaar zijn. Deze ervaring helpt om dit in te zien en doorgeefvermogen te ontwikkelen.
+
+  - title: Vrijwilligerswerk # Title for the section
+      - layout: left
+        title: 30 uur stage
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Het geinsche Hof, organiseren van buurtontbijt en het helpen organiseren van Feesten bij stichting Al Fadi.
+        caption: Juli 2019 - september 2019
+        quote: >
+          Het opdoen van zwaarwerk ervaringen.
+        description: | # this will include new lines to allow paragraphs
+            Een bedrijf heeft ook werkers nodig. Dit kan soms zwaar zijn. Deze ervaring helpt om dit in te zien en doorgeefvermogen te ontwikkelen.
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        - layout: left
+        title: Universiteit Utrecht
+        caption: september 2020 - Juli 2023
+        sub_title: BoS Informatica
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Ik ben momenteel bezig met wetenschappijl onderwijs. Hier heb ik geleerd dat mijn manier van denken, professioneler veranderd is. Het speciaal zijn en bijdragen aan denkkracht zorgt op het vooruitgaan in de toekomst.
+      - layout: left
+        title: Voortgezet Wetenschappelijk Onderwijs/ Atheneum
+        caption: september 2014 - Juli 2020
+        sub_title: Nt/Ng met economie
+        quote: >
+          Op school doe je kennis en vaardigheden op waarmee je naar zelfstandigheid groeit. Onze school is een veilige omgeving waarin mensen je kennen. Een omgeving ook die ruimte biedt om te groeien naar volwassenheid. Vallen en opstaan hoort daarbij, net als de wereld verkennen.
+          Goed onderwijs is het eerste wat je van een school mag verwachten. Leren gebeurt op het Cals College in de vaklessen en daarbuiten. Leerlingen hebben eigen kwaliteiten en interesses. Deze kunnen ze via het brede aanbod van activiteiten verder ontwikkelen.
+        description: | # this will include new lines to allow paragraphs
+          Tijdens mijn studie in de middelbareschool ben ik veel uitdaging aangegaan. Ik heb de zwaarste vakkenpaketten genomen en ben dus afgestudeerd met twee diploma's. Naast deze diploma's heb ik ook een Goethe zertifikat behaald.
+          In mijn derde jaar heb ik een eindrapport gekregen met een gemiddelde van een 8,8, hierna mocht ik al deelnemen aan projecten met samenwerking met Universiteit Utrecht.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Wat meer over mij
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Naast mijn studie en werkervaringen vind ik het volgende ook leuk:
+      - Mensen leren kennen
+      - Voetbal
+      - Hulp aanbieden
+      - Wat nieuws leren
+      - Sporten
+      - Gamen 
+      - [Een ninja worden](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/modern-resume-theme/images/cutie.jpg "Trees")
 
 # Footer
 footer_show_references: true
