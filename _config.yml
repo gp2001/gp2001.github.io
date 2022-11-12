@@ -100,15 +100,17 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-        - layout: left
+      - layout: left
         title: Universiteit Utrecht
-        caption: september 2020 - Juli 2023
-        sub_title: BoS Informatica
+        caption: 2020 - nu
+        sub_title: BSc Computer Science
         quote: >
-          In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          Ik ben momenteel bezig met wetenschappijl onderwijs. Hier heb ik geleerd dat mijn manier van denken, professioneler veranderd is. Het speciaal zijn en bijdragen aan denkkracht zorgt op het vooruitgaan in de toekomst.
-          
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
   - title: Wat meer over mij
     layout: text
     content: | # this will include new lines to allow paragraphs
