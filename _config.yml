@@ -124,7 +124,7 @@ content:
       - [Een ninja worden](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/cutie.jpg "Cute")
+      ![Trees](/images/cutie.jpg "Cute")
 
 # Footer
 footer_show_references: true
