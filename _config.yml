@@ -52,6 +52,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   Mijn meeste ervaringen zijn in: <mark>C#</mark>, maar kan ook <mark>Python</mark>, <mark>Haskell</mark>, <mark>Javascript</mark>, <mark>Css</mark>, <mark>Html</mark> en <mark>sql</mark>.
 
+  Ook spreek ik <mark>Nederlands<Mark>, <mark>Engels<Mark>, <mark>Chaldeeuws<Mark>, en <mark>Duits<Mark>.
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
