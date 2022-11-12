@@ -72,7 +72,7 @@ content:
         quote: >
           Hier heb ik mijn eerste ervaringen opgedaan met het werken in teamverband, snelste route-algoritme, databases en meer.
         description: | # this will include new lines to allow paragraphs
-          Dit project was om meer te leren met <mark>C#<mark>.
+          Dit project was om meer te leren met <mark>C#</mark>.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -87,7 +87,6 @@ content:
           Het opdoen van Leidinggevende en sociale ervaringen.
         description: | # this will include new lines to allow paragraphs
             Ieder bedrijf heeft iemand nodig die orde houdt en eventueel instructies geeft om het bedrijf draaiende te houden. Dit kent uitdagingen om zo optimaal mogelijk, medewerkers positief bezig te houden.
-              - layout: left
       - layout: left
         title: Groot en Klein
         link: boringcompany.com
@@ -107,11 +106,21 @@ content:
         caption: 2020 - nu
         sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at UU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        Ik ben momenteel bezig met wetenschappijl onderwijs. Hier heb ik geleerd dat mijn manier van denken, professioneler veranderd is. Het speciaal zijn en bijdragen aan denkkracht zorgt op het vooruitgaan in de toekomst.
+      - layout: left
+        title: Voortgezet Wetenschappelijk Onderwijs/ Atheneum
+        caption: september 2014 - Juli 2020
+        sub_title: Nt/Ng met economie
+        quote: >
+          Op school doe je kennis en vaardigheden op waarmee je naar zelfstandigheid groeit. Onze school is een veilige omgeving waarin mensen je kennen. Een omgeving ook die ruimte biedt om te groeien naar volwassenheid. Vallen en opstaan hoort daarbij, net als de wereld verkennen.
+          Goed onderwijs is het eerste wat je van een school mag verwachten. Leren gebeurt op het Cals College in de vaklessen en daarbuiten. Leerlingen hebben eigen kwaliteiten en interesses. Deze kunnen ze via het brede aanbod van activiteiten verder ontwikkelen.
+        description: | # this will include new lines to allow paragraphs
+          Tijdens mijn studie in de middelbareschool ben ik veel uitdaging aangegaan. Ik heb de zwaarste vakkenpaketten genomen en ben dus afgestudeerd met twee diploma's. Naast deze diploma's heb ik ook een Goethe zertifikat behaald.
+          In mijn derde jaar heb ik een eindrapport gekregen met een gemiddelde van een 8,8, hierna mocht ik al deelnemen aan projecten met samenwerking met Universiteit Utrecht.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: Wat meer over mij
     layout: text
