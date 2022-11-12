@@ -46,7 +46,7 @@ instagram_username: gabrielpoleza_
 
 # About Section
 # about_title: About Me
-about_profile_image: ik/profile.jpg
+about_profile_image: images/ik.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hallo, mijn naam is Gabriël en ik ben een universitair Informatica student. Ik ben momenteel freelancer bij youngones en heb meerdere ervaringen opgedaan met verschillende soorten banen. Ik heb enige ervaringen opgedaan tijdens mijn studie met software en web apps.
 
@@ -124,7 +124,7 @@ content:
       - [Een ninja worden](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/cutie.jpg "Trees")
+      ![Trees](/modern-resume-theme/images/cutie.jpg "Cute")
 
 # Footer
 footer_show_references: true
