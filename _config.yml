@@ -44,8 +44,8 @@ instagram_username: gabrielpoleza_
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me
+#About Section
+about_title: Over mij
 about_profile_image: images/ik.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hallo, mijn naam is Gabriël en ik ben een universitair Informatica student. Ik ben momenteel freelancer bij youngones en heb meerdere ervaringen opgedaan met verschillende soorten banen. Ik heb enige ervaringen opgedaan tijdens mijn studie met software en web apps.
@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   Ook spreek ik <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark>, en <mark>Duits</mark>.
 
 content:
-  - title: Projects # Title for the section
+  - title: Projecten # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -74,7 +74,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Dit project was om meer te leren met <mark>C#</mark>.
 
-  - title: Experience # Title for the section
+  - title: Werk Ervaringen # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -139,7 +139,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Een freelancer kent veel verantwoordelijkheden, dit doe ik voor bijverdiensten en de bijbehorende ervaringen.
 
-  - title: Education # Title for the section
+  - title: Educatie # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
