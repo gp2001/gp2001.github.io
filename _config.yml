@@ -127,9 +127,9 @@ content:
         quote: >
           Studiekosten bijverdiensten
         description: | # this will include new lines to allow paragraphs
-            Hier doe ik kassa, stuur ik bezorgers aan, pak ik bestellingen in, help ik in de keuk en bezorg ik.
+            Hier doe ik kassawerkzaamheden, stuur ik bezorgers aan, pak ik bestellingen in, help ik in de keuken en bezorg ik.
       - layout: left
-        title: youngones
+        title: Youngones
         link: www.youngones.com
         # link_text: boringcompany.com
         sub_title: Freelancer
