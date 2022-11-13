@@ -177,12 +177,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Naast mijn studie en werkervaringen vind ik het volgende ook leuk:
-      - Mensen leren kennen
       - Voetbal
-      - Hulp aanbieden
-      - Wat nieuws leren
-      - Sporten
+      - Fitnissen
       - Gamen 
+      - Wat nieuws leren
+      - Mensen leren kennen
       - [Op avontuur](https://youtu.be/SKnGqmVR8lI)
 
       Look at this cool image  
