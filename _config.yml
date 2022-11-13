@@ -149,7 +149,7 @@ content:
         quote: >
           In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-          Ik ben momenteel bezig met wetenschappijl onderwijs. Hier heb ik geleerd dat mijn manier van denken, professioneler veranderd is. Het speciaal zijn en bijdragen aan denkkracht zorgt op het vooruitgaan in de toekomst.
+          Ik ben momenteel bezig met wetenschappijk onderwijs. Hier heb ik geleerd dat mijn manier van denken, professioneler veranderd is. Het speciaal zijn en bijdragen aan denkkracht zorgt op het vooruitgaan in de toekomst.
       - layout: left
         title: Voortgezet Wetenschappelijk Onderwijs/ Atheneum
         caption: september 2014 - Juli 2020
@@ -175,7 +175,7 @@ content:
       - [Een ninja worden](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/images/cutie.jpg "Cute")
+      ![Trees](/images/air.jpg "Cute")
 
 # Footer
 footer_show_references: true
