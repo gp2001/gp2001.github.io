@@ -9,7 +9,7 @@ version: 2
 name: Gabriël Shamon
 title: Student Computer Science
 email: gabrielshamon1@hotmail.nl
-website: www.google.nl
+#website: www.google.nl
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -82,7 +82,7 @@ content:
         link: www.ah.nl
         # link_text: boringcompany.com
         sub_title: Teamleider
-        caption: Januari 2017 - Maart 2017
+        caption: Januari 2017 - Maart 2019
         quote: >
           Het opdoen van Leidinggevende en sociale ervaringen.
         description: | # this will include new lines to allow paragraphs
