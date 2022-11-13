@@ -107,7 +107,7 @@ content:
         quote: >
           Het opdoen van rij-ervaringen.
         description: | # this will include new lines to allow paragraphs
-           Na het behalen heb ik hier mijn rijervaringen opgedaan.
+           Na het behalen van mijn rijbewijs, heb ik hier mijn rijervaringen opgedaan.
       - layout: left
         title: Covebo
         link: www.covebo.nl
