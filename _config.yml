@@ -138,6 +138,17 @@ content:
           Het opdoen van ervaringen bij meerdere soorten banen.
         description: | # this will include new lines to allow paragraphs
             Een freelancer kent veel verantwoordelijkheden, dit doe ik voor bijverdiensten en de bijbehorende ervaringen.
+      - layout: left
+        title: Vrijwilligerswerk
+        # link: www.ah.nl
+        # link_text: Albert Heijn
+        sub_title: Het Geinsche Hof, Stichting Al Fadi en Buurtstichting.
+        caption: 40+ uren
+        quote: >
+          positieve onbetaalde inbreng in de maatschappij.
+        description: | # this will include new lines to allow paragraphs
+            Ouderen ondersteunen, de buurt vooruit helpen en gemeenschappen zich meer thuis laten voelen in een nieuwe leefsituatie. Inzet voor een goed doel vind ik belangerijk, omdat de mens ook een goede kant moet laten zien.
+            
 
   - title: Educatie # Title for the section
     layout: list # Type of content section (list/text)
