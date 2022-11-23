@@ -63,9 +63,9 @@ content:
         link: https://www.instagram.com/disneyroute/
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  gp2001/IntroductieProject
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/gp2001/IntroductieProject
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
