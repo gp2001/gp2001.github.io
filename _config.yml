@@ -184,8 +184,8 @@ content:
       - Mensen leren kennen
       - [Op avontuur](https://youtu.be/SKnGqmVR8lI)
 
-      Look at this cool image  
-      ![Trees](/images/air.jpg "Cute")
+#      Look at this cool image  
+#      ![Trees](/images/air.jpg "Cute")
 
 # Footer
 footer_show_references: true
