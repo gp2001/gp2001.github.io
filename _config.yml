@@ -159,7 +159,8 @@ content:
         quote: >
           In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-          Ik volg momenteel wetenschappelijk onderwijs. Hier heb ik geleerd dat mijn manier van denken professioneler is geworden. Het feit dat ik unieke bijdragen kan leveren en kan bijdragen aan de denkkracht, zal mij in de toekomst verder helpen.      - layout: left
+          Ik volg momenteel wetenschappelijk onderwijs. Hier heb ik geleerd dat mijn manier van denken professioneler is geworden. Het feit dat ik unieke bijdragen kan leveren en kan bijdragen aan de denkkracht, zal mij in de toekomst verder helpen.
+      - layout: left
         title: Voortgezet Wetenschappelijk Onderwijs/ Atheneum
         caption: september 2014 - Juli 2020
         sub_title: NT/NG met economie
