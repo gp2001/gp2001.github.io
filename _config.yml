@@ -59,6 +59,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Polezahairdesign
+        link: https://www.polezahairdesign.nl/
+        link_text: Project Website
+#        additional_links:
+#          - title: gp2001/IntroductieProject
+#            icon: fab fa-github
+#            url: https://github.com/gp2001/IntroductieProject
+        quote: >
+          Deze website heb ik gemaakt voor een kapper.
+        description: | # this will include new lines to allow paragraphs
+          De bedoeling van de project was om een website te maken voor een kapper. Ik heb hier mijn <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> vaardigheden gebruikt en verbeterd.
+      - layout: top-middle
         title: DisneyRoute
         link: https://www.instagram.com/disneyroute/
         # link_text: Project Website
