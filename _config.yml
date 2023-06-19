@@ -171,7 +171,8 @@ content:
         quote: >
           In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-         Tijdens mijn WO-master Applied Data Science ga ik geavanceerde kennis en vaardigheden opdoen in data-analyse, machine learning en statistische modellering, waardoor ik in staat zal zijn om complexe datasets te analyseren, waardevolle inzichten te verkrijgen en voorspellende modellen te ontwikkelen voor datagedreven besluitvorming.      - layout: left
+         Tijdens mijn WO-master Applied Data Science ga ik geavanceerde kennis en vaardigheden opdoen in data-analyse, machine learning en statistische modellering, waardoor ik in staat zal zijn om complexe datasets te analyseren, waardevolle inzichten te verkrijgen en voorspellende modellen te ontwikkelen voor datagedreven besluitvorming.
+      - layout: left
         title: Universiteit Utrecht
         caption: 2020 - 2023
         sub_title: BSc Computer Science
