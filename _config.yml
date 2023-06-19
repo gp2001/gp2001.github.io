@@ -166,12 +166,17 @@ content:
     content:
       - layout: left
         title: Universiteit Utrecht
-        caption: 2020 - nu
-        sub_title: BSc Computer Science
+        caption: 2023 - Nu
+        sub_title: MSc Applied Data Science
         quote: >
           In Utrecht kijken studenten over de grenzen van hun vakgebied heen. Studenten en toponderzoekers werken in hechte communities samen aan een betere toekomst.
         description: | # this will include new lines to allow paragraphs
-          Ik volg momenteel wetenschappelijk onderwijs. Hier heb ik geleerd dat mijn manier van denken professioneler is geworden. Het feit dat ik unieke bijdragen kan leveren en kan bijdragen aan de denkkracht, zal mij in de toekomst verder helpen.
+         Tijdens mijn WO-master Applied Data Science ga ik geavanceerde kennis en vaardigheden opdoen in data-analyse, machine learning en statistische modellering, waardoor ik in staat zal zijn om complexe datasets te analyseren, waardevolle inzichten te verkrijgen en voorspellende modellen te ontwikkelen voor datagedreven besluitvorming.      - layout: left
+        title: Universiteit Utrecht
+        caption: 2020 - 2023
+        sub_title: BSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+          Tijdens mijn WO-bachelor informatica heb ik een diepgaand begrip ontwikkeld van programmeerconcepten, algoritmen, gegevensstructuren en systeemanalyse, waardoor ik in staat ben complexe softwareoplossingen te ontwerpen en implementeren.
       - layout: left
         title: Voortgezet Wetenschappelijk Onderwijs/ Atheneum
         caption: september 2014 - Juli 2020
