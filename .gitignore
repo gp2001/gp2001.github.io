@@ -6,3 +6,4 @@ Gemfile.lock
 *.code-workspace
 *.iml
 *.xml
+.jekyll-metadata
