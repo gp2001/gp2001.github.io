@@ -65,7 +65,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: Youtube Video
-            icon: fa-brands fa-youtube
+            icon: fa-youtube
             url: https://www.youtube.com/watch?v=vV1JjrZjnxk
         quote: >
           In dit project heb ik in een groep van 10 studenten een programma gerealiseerd voor de Nationale Poltie en Koninklijke Marechaussee.
