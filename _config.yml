@@ -60,13 +60,48 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Polezahairdesign
-        link: https://www.polezahairdesign.nl/
-        link_text: Project Website
+        title: Verdachte Tijdlijn
+        # link: https://www.instagram.com/disneyroute/
+        # link_text: Project Website
+        additional_links:
+          - title: Youtube Video
+            icon: fa-brands fa-youtube
+            url: https://www.youtube.com/watch?v=vV1JjrZjnxk
+        quote: >
+          In dit project heb ik in een groep van 10 studenten een programma gerealiseerd voor de Nationale Poltie en Koninklijke Marechaussee.
+        description: | # this will include new lines to allow paragraphs
+          Ik heb hier meer ervaring opgedaan met <mark>Scrum</mark>, <mark>Agile Werken</mark>, <mark>Retro's</mark>, <mark>Docker</mark>, <mark>Python</mark> en <mark>GitHub</mark>.
+          We moesten camerabeelden omzetten in zinnen, zodat er legaal naar objecten gezocht zou kunnen worden. Aan dit project heb ik vooral gewerkt aan de <mark>Back-End</mark>.
+          Ik heb geleerd om <mark>objectdetectie</mark> en <mark>tracking</mark>tracking toe te passen. Ook heb ik een model zelf getraind voor <mark>kledingdetectie</mark> en heb ik een <mark>kleurendetectie</mark> zelf geschreven.
+          We waren een half jaar bezig om dit fantastische project te realiseren, klik op de link om de video te bekijken.
+      - layout: top-middle
+        title: Babylonia Restaurant
+        link: https://www.babyloniarestaurant.nl
+        link_text: Website
 #        additional_links:
 #          - title: gp2001/IntroductieProject
 #            icon: fab fa-github
 #            url: https://github.com/gp2001/IntroductieProject
+        quote: >
+          Deze website heb ik gemaakt voor een restaurant.
+        description: | # this will include new lines to allow paragraphs
+          Ik heb hier mijn <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> vaardigheden gebruikt en nog verbeterd.
+      - layout: top-middle
+        title: Automatisch Factureren
+        link: gp2001.github.io/facturen
+        link_text: Website
+#        additional_links:
+#          - title: gp2001/IntroductieProject
+#            icon: fab fa-github
+#            url: https://github.com/gp2001/IntroductieProject
+        quote: >
+          Deze website maakt het makkelijker om facturen te genereren.
+        description: | # this will include new lines to allow paragraphs
+          Ik heb hier mijn <mark>JavaScript</mark> vaardigheden vooral verbeterd.
+      - layout: top-middle
+        title: Polezahairdesign
+        link: https://www.polezahairdesign.nl/
+        link_text: Website
         quote: >
           Deze website heb ik gemaakt voor een kapper.
         description: | # this will include new lines to allow paragraphs
