@@ -61,12 +61,8 @@ content:
     content:
       - layout: top-middle
         title: Verdachte Tijdlijn
-        # link: https://www.instagram.com/disneyroute/
-        # link_text: Project Website
-        additional_links:
-          - title: Youtube Video
-            icon: fa-youtube
-            url: https://www.youtube.com/watch?v=vV1JjrZjnxk
+        link: https://www.youtube.com/watch?v=vV1JjrZjnxk
+        link_text: Project Video
         quote: >
           In dit project heb ik in een groep van 10 studenten een programma gerealiseerd voor de Nationale Poltie en Koninklijke Marechaussee.
         description: | # this will include new lines to allow paragraphs
@@ -78,10 +74,6 @@ content:
         title: Babylonia Restaurant
         link: https://www.babyloniarestaurant.nl
         link_text: Website
-#        additional_links:
-#          - title: gp2001/IntroductieProject
-#            icon: fab fa-github
-#            url: https://github.com/gp2001/IntroductieProject
         quote: >
           Deze website heb ik gemaakt voor een restaurant.
         description: | # this will include new lines to allow paragraphs
