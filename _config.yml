@@ -68,7 +68,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Ik heb hier meer ervaring opgedaan met <mark>Scrum</mark>, <mark>Agile Werken</mark>, <mark>Retro's</mark>, <mark>Docker</mark>, <mark>Python</mark> en <mark>GitHub</mark>.
           We moesten camerabeelden omzetten in zinnen, zodat er legaal naar objecten gezocht zou kunnen worden. Aan dit project heb ik vooral gewerkt aan de <mark>Back-End</mark>.
-          Ik heb geleerd om <mark>objectdetectie</mark> en <mark>tracking</mark>tracking toe te passen. Ook heb ik een model zelf getraind voor <mark>kledingdetectie</mark> en heb ik een <mark>kleurendetectie</mark> zelf geschreven.
+          Ik heb geleerd om <mark>objectdetectie</mark> en <mark>tracking</mark> toe te passen. Ook heb ik een model zelf getraind voor <mark>kledingdetectie</mark> en heb ik een <mark>kleurendetectie</mark> zelf geschreven.
           We waren een half jaar bezig om dit fantastische project te realiseren, klik op de link om de video te bekijken.
       - layout: top-middle
         title: Babylonia Restaurant
