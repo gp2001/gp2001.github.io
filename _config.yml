@@ -71,14 +71,6 @@ content:
           Ik heb geleerd om <mark>objectdetectie</mark> en <mark>tracking</mark> toe te passen. Ook heb ik een model zelf getraind voor <mark>kledingdetectie</mark> en heb ik een <mark>kleurendetectie</mark> zelf geschreven.
           We waren een half jaar bezig om dit fantastische project te realiseren, klik op de link om de video te bekijken.
       - layout: top-middle
-        title: Babylonia Restaurant
-        link: https://www.babyloniarestaurant.nl
-        link_text: Website
-        quote: >
-          Deze website heb ik gemaakt voor een restaurant.
-        description: | # this will include new lines to allow paragraphs
-          Ik heb hier mijn <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> vaardigheden gebruikt en nog verbeterd.
-      - layout: top-middle
         title: Automatisch Factureren
         link: gp2001.github.io/facturen
         link_text: Website
@@ -91,13 +83,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Ik heb hier mijn <mark>JavaScript</mark> vaardigheden vooral verbeterd.
       - layout: top-middle
-        title: Polezahairdesign
-        link: https://www.polezahairdesign.nl/
-        link_text: Website
+        title: Websites voor Diverse Klanten
         quote: >
-          Deze website heb ik gemaakt voor een kapper.
+          Ik heb meerdere websites ontwikkeld voor verschillende bedrijven en professionals onder mijn bedrijfje Polezait.nl.
         description: | # this will include new lines to allow paragraphs
-          De bedoeling van de project was om een website te maken voor een kapper. Ik heb hier mijn <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> vaardigheden gebruikt en verbeterd.
+          Als eigenaar en webontwikkelaar van Polezait.nl heb ik een reeks op maat gemaakte websites gecreëerd om tegemoet te komen aan de unieke behoeften van diverse klanten. Mijn werk omvatte het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Bij elk project heb ik mijn vaardigheden in <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> toegepast en verbeterd om moderne en functionele websites te leveren die de identiteit en doelen van mijn klanten weerspiegelen. Deze ervaring heeft mijn vermogen versterkt om effectief te communiceren met klanten, hun visie te begrijpen en te vertalen naar tastbare digitale oplossingen.
       - layout: top-middle
         title: DisneyRoute
         link: https://www.instagram.com/disneyroute/
