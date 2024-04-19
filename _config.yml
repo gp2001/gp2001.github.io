@@ -84,6 +84,7 @@ content:
           Ik heb hier mijn <mark>JavaScript</mark> vaardigheden vooral verbeterd.
       - layout: top-middle
         title: Websites voor Diverse Klanten
+        link: https://www.polezait.nl
         quote: >
           Ik heb meerdere websites ontwikkeld voor verschillende bedrijven en professionals onder mijn bedrijfje Polezait.nl.
         description: | # this will include new lines to allow paragraphs
