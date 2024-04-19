@@ -177,15 +177,15 @@ content:
           Het opdoen van ervaringen bij meerdere soorten banen.
         description: | # this will include new lines to allow paragraphs
             Een freelancer kent veel verantwoordelijkheden, dit doe ik voor bijverdiensten en de bijbehorende ervaringen.
-        - layout: left
+      - layout: left
         title: Polezait.nl
         link: www.polezait.nl
         sub_title: Eigenaar & Webontwikkelaar
         caption: Januari 2022 - Heden
         quote: >
-        Ontwerpen en ontwikkelen van op maat gemaakte websites voor diverse bedrijven en professionals.
+           Ontwerpen en ontwikkelen van op maat gemaakte websites voor diverse bedrijven en professionals.
         description: | # this will include new lines to allow paragraphs
-        Als eigenaar en webontwikkelaar van Polezait.nl heb ik me beziggehouden met het creëren van aantrekkelijke en functionele websites voor verschillende soorten bedrijven. Mijn werk omvatte onder andere het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Ik heb mijn vaardigheden in HTML, CSS en JavaScript toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn vermogen om effectief te communiceren met klanten en hun visie om te zetten in tastbare digitale oplossingen heb versterkt. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van webontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige webontwikkelaar.
+           Als eigenaar en webontwikkelaar van Polezait.nl heb ik me beziggehouden met het creëren van aantrekkelijke en functionele websites voor verschillende soorten bedrijven. Mijn werk omvatte onder andere het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Ik heb mijn vaardigheden in HTML, CSS en JavaScript toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn vermogen om effectief te communiceren met klanten en hun visie om te zetten in tastbare digitale oplossingen heb versterkt. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van webontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige webontwikkelaar.
       - layout: left
         title: Vrijwilligerswerk
         # link: www.ah.nl
