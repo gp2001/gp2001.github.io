@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Gabriël Shamon
-title: Msc Student Applied Data Science
+title: Software Engineer at ICT Group, MSc Applied Data Science, BSc Computer Science
 email: gabrielshamon1@hotmail.nl
 website: https://gp2001.github.io
 
@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Generating Structured Synthetic Data: Empowering Stater’s Mortgage Services with a Large Language Model
+        title: Generating Structured Synthetic Data: Empowering Stater's Mortgage Services with a Large Language Model
         # link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         # link_text: Project Video
         quote: >
@@ -191,6 +191,15 @@ content:
            Ontwerpen en ontwikkelen van op maat gemaakte websites voor diverse bedrijven en professionals.
         description: | # this will include new lines to allow paragraphs
            Als eigenaar en webontwikkelaar van Polezait.nl heb ik me beziggehouden met het creëren van aantrekkelijke en functionele websites voor verschillende soorten bedrijven. Mijn werk omvatte onder andere het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Ik heb mijn vaardigheden in HTML, CSS en JavaScript toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn vermogen om effectief te communiceren met klanten en hun visie om te zetten in tastbare digitale oplossingen heb versterkt. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van webontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige webontwikkelaar.
+      - layout: left
+        title: ICT Group
+        link: www.ict.eu
+        sub_title: Software Engineer
+        caption: September 2024 - Heden
+        quote: >
+        Ontwikkelen van innovatieve softwareoplossingen voor diverse bedrijven en organisaties.
+        description: |
+            Als software engineer bij ICT Group ben ik betrokken bij het ontwikkelen van complexe softwareoplossingen voor verschillende soorten bedrijven en organisaties. Mijn werk omvat het ontwikkelen van softwareoplossingen voor diverse domeinen, waaronder healthcare, automotive, traffic, hightech en energie. Ik heb mijn vaardigheden in programmeertalen zoals python en C# toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn kennis aan het uitbreiden ben door trainingen in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van softwareontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige software engineer.
       - layout: left
         title: Vrijwilligerswerk
         # link: www.ah.nl
