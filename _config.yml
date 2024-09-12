@@ -60,6 +60,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Generating Structured Synthetic Data: Empowering Stater’s Mortgage Services with a Large Language Model
+        # link: https://www.youtube.com/watch?v=vV1JjrZjnxk
+        # link_text: Project Video
+        quote: >
+          In dit project heb ik ruwe data om weten te zetten door middel van LLMs naar een ORPO Dataset voor het genereren van een fine-tuned LLM
+        description: | # this will include new lines to allow paragraphs
+          Ik heb recent ervaring opgedaan met het omzetten van ruwe website scraped data naar een ORPO (Odd Ratio Preference Optimization) dataset met behulp van Large Language Models (LLMs) en prompt engineering. Ik heb geleerd hoe ik LLMs kan trainen en fine-tunen om specifieke taken uit te voeren, zoals het omzetten van ongestructureerde data naar een gestructureerd formaat.
+
+          In dit project heb ik vooral gewerkt aan het ontwikkelen van prompts en het trainen van LLMs om de data om te zetten. Ik heb ook ervaring opgedaan met het optimaliseren van de prestaties van de LLMs en het verbeteren van de nauwkeurigheid van de resultaten.
+
+          Een belangrijk onderdeel van het project was de validatie van de gegenereerde data. Ik heb hiervoor gebruik gemaakt van verschillende checks, zoals de halucination score en token similariteitsanalyses. Deze checks hebben mij geholpen om de kwaliteit van de gegenereerde data te beoordelen en te verbeteren.
+
+          Door dit project heb ik een dieper inzicht gekregen in de mogelijkheden en beperkingen van LLMs en prompt engineering, en heb ik geleerd hoe ik deze technologieën kan inzetten om complexe data-omzettingstaken uit te voeren. Ook heb ik ervaring opgedaan met het valideren van gegenereerde data en het gebruik van verschillende checks om de kwaliteit te beoordelen. Ik ben trots op wat ik heb bereikt en kijk uit naar toekomstige projecten waarin ik deze vaardigheden kan toepassen."
+      - layout: top-middle
         title: Verdachte Tijdlijn
         link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         link_text: Project Video
