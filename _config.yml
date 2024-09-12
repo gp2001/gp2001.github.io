@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Generating Structured Synthetic Data: Empowering Stater's Mortgage Services with a Large Language Model
+        title: Generating Structured Synthetic Data; Empowering Stater's Mortgage Services with a Large Language Model
         # link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         # link_text: Project Video
         quote: >
