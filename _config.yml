@@ -239,6 +239,27 @@ content:
         description: | # this will include new lines to allow paragraphs
           Tijdens mijn middelbare schooltijd ben ik vele uitdagingen aangegaan. Ik heb de zwaarste vakkenpakketten gekozen en ben daarom afgestudeerd met twee diploma's. Naast deze diploma's heb ik ook een Goethe-Zertifikat behaald. In mijn derde jaar ontving ik een eindrapport met een gemiddelde van 8,8. Hierdoor kreeg ik de mogelijkheid om deel te nemen aan projecten in samenwerking met de Universiteit Utrecht.
 
+  - title: Certificaten
+    layout: list
+    content:
+      - layout: left
+        title: Microsoft Certified Azure Data Fundamentals
+        link: assets/Credentials - GabrielShamon-9265 _ Microsoft Learn.pdf
+        link_text: Certificate
+        caption: 2024~
+        quote: >
+          Deze certificering toont aan dat ik kennis heb van de basisprincipes van Azure Data Services en hoe deze kunnen worden gebruikt om gegevens te beheren en te analyseren.
+        description: | # this will include new lines to allow paragraphs
+          In deze training heb ik kennis gemaakt met de basisprincipes van Azure Data Services en geleerd hoe ik gegevens kan beheren en analyseren met behulp van Azure. Ik heb ervaring opgedaan met het werken met Azure Data Services, het opzetten van gegevensopslag en het uitvoeren van gegevensanalyse in Azure. Deze certificering heeft mijn kennis en vaardigheden in Azure versterkt en mij in staat gesteld om effectief te werken met Azure Data Services.
+      - layout: left
+        title: Explore rust
+        link: \assets\Certificate of Training - Gabriel Shamon.pdf
+        link_text: Certificate
+        caption: 2024~
+        quote: >
+          Rust is een systeemtaal die is ontworpen om veilige en efficiënte software te maken.
+        description: | # this will include new lines to allow paragraphs
+          In deze training heb ik kennis gemaakt met de basisprincipes van Rust en geleerd hoe ik veilige en efficiënte software kan ontwikkelen met deze taal. Ik heb ervaring opgedaan met het schrijven van code in Rust, het compileren van programma's en het gebruik van de Rust-toolchain. Deze training heeft mijn kennis en vaardigheden in Rust versterkt en mij in staat gesteld om complexe softwareoplossingen te ontwikkelen met deze taal.
 
   - title: Interesses
     layout: text
