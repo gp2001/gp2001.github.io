@@ -250,7 +250,7 @@ content:
         quote: >
           Deze certificering toont aan dat ik kennis heb van de basisprincipes van Azure AI Services en hoe deze kunnen worden gebruikt om AI-oplossingen te ontwikkelen en te implementeren.
         description: | # this will include new lines to allow paragraphs
-        In deze training heb ik kennis gemaakt met de basisprincipes van Azure AI Services en geleerd hoe ik AI-oplossingen kan ontwikkelen en implementeren met behulp van Azure. Ik heb ervaring opgedaan met het werken met Azure AI Services, het opzetten van AI-modellen en het uitvoeren van AI-analyse in Azure. Deze certificering heeft mijn kennis en vaardigheden in Azure AI versterkt en mij in staat gesteld om effectief te werken met Azure AI Services.
+          In deze training heb ik kennis gemaakt met de basisprincipes van Azure AI Services en geleerd hoe ik AI-oplossingen kan ontwikkelen en implementeren met behulp van Azure. Ik heb ervaring opgedaan met het werken met Azure AI Services, het opzetten van AI-modellen en het uitvoeren van AI-analyse in Azure. Deze certificering heeft mijn kennis en vaardigheden in Azure AI versterkt en mij in staat gesteld om effectief te werken met Azure AI Services.
       - layout: left
         title: Microsoft Certified Azure Data Fundamentals
         link: assets/Credentials - GabrielShamon-9265 _ Microsoft Learn.pdf
