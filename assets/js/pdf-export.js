@@ -1,40 +1,42 @@
-// PDF Export Functionality
+// PDF Export Functionality - Improved Print Method
 (function() {
   'use strict';
 
-  // Function to generate and download PDF
-  function generatePDF() {
-    // Get the main content
-    const element = document.querySelector('body');
+  // Function to prepare page for PDF export
+  function preparePDFExport() {
+    // Add a special class to body for PDF styling
+    document.body.classList.add('pdf-export-mode');
     
-    // Options for html2pdf
-    const opt = {
-      margin: 10,
-      filename: 'Gabriel_Shamon_Resume.pdf',
-      image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { 
-        scale: 2,
-        useCORS: true,
-        letterRendering: true
-      },
-      jsPDF: { 
-        unit: 'mm', 
-        format: 'a4', 
-        orientation: 'portrait' 
-      },
-      pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-    };
+    // Force light mode for PDF
+    document.body.classList.remove('dark');
+    
+    // Ensure all images are loaded
+    const images = document.querySelectorAll('img');
+    const imagePromises = Array.from(images).map(img => {
+      if (img.complete) return Promise.resolve();
+      return new Promise((resolve) => {
+        img.onload = resolve;
+        img.onerror = resolve;
+      });
+    });
+    
+    return Promise.all(imagePromises);
+  }
 
-    // Show loading indicator
-    const originalText = 'PDF wordt gegenereerd...';
-    console.log(originalText);
+  // Function to clean up after PDF export
+  function cleanupAfterExport() {
+    document.body.classList.remove('pdf-export-mode');
+  }
 
-    // Generate PDF
-    html2pdf().set(opt).from(element).save().then(function() {
-      console.log('PDF succesvol gegenereerd!');
-    }).catch(function(error) {
-      console.error('Fout bij PDF generatie:', error);
-      alert('Er is een fout opgetreden bij het genereren van de PDF. Probeer het opnieuw.');
+  // Function to trigger browser print dialog
+  function generatePDF() {
+    preparePDFExport().then(() => {
+      // Small delay to ensure styles are applied
+      setTimeout(() => {
+        window.print();
+        // Cleanup after print dialog closes
+        setTimeout(cleanupAfterExport, 1000);
+      }, 100);
     });
   }
 
@@ -46,20 +48,16 @@
     pdfLinks.forEach(function(link) {
       link.addEventListener('click', function(e) {
         e.preventDefault();
-        
-        // Check if html2pdf is loaded
-        if (typeof html2pdf === 'undefined') {
-          alert('PDF library wordt geladen. Probeer het over een paar seconden opnieuw.');
-          return;
-        }
-        
         generatePDF();
       });
     });
   });
 
-  // Alternative: Add a print-friendly version
-  window.printResume = function() {
-    window.print();
+  // Alternative: Add a direct function for manual calling
+  window.exportToPDF = function() {
+    generatePDF();
   };
+
+  // Listen for after print event to cleanup
+  window.addEventListener('afterprint', cleanupAfterExport);
 })();

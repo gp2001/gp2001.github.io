@@ -7,10 +7,10 @@
   {%- seo title=false -%}
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 
-  <!-- HTML2PDF Library for PDF Export -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- PDF Export functionality via print -->
   <script src="{{ '/assets/js/pdf-export.js' | relative_url }}"></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

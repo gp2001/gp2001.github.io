@@ -3,3 +3,43 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Print-specific styles for PDF export
+@media print {
+  // Force light mode colors
+  body, body.dark {
+    background: white !important;
+    color: #000 !important;
+  }
+
+  // Hide navigation and non-essential elements
+  .no-print, nav, .icons {
+    display: none !important;
+  }
+
+  // Ensure images are visible
+  img {
+    display: block !important;
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  // Proper page breaks
+  .container {
+    page-break-inside: avoid;
+  }
+
+  h3 {
+    page-break-after: avoid;
+  }
+
+  // Ensure mark tags are visible with color
+  mark {
+    background-color: #fff3cd !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
