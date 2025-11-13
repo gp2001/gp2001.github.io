@@ -60,6 +60,82 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Massachusetts General Hospital - Implementing AI in Patientdata
+        sub_title: Consultant/ AI Developer
+        caption: December 2024 - Heden
+        quote: >
+          Ontwikkeling van een AI-systeem voor het analyseren van ongestructureerde medische data en het identificeren van patiëntengroepen met behulp van GraphQL en vectordatabases.
+        description: | # this will include new lines to allow paragraphs
+          **Situatie:** Massachusetts General Hospital (MGH) is een vooraanstaand ziekenhuis en al meer dan 10 jaar klant bij ICT. Ze hebben een applicatie ontwikkeld voor radiologie waarmee ze precies kunnen zien in welke fase een patiënt zich bevindt tijdens radiotherapie. MGH heeft te maken met grote hoeveelheden ongestructureerde data, zoals klinische notities, waaruit veel waardevolle informatie kan worden gehaald.
+
+          **Taak:** Mijn taak is om een AI-oplossing te ontwikkelen die MGH helpt bij het analyseren van ongestructureerde data om waardevolle inzichten te verkrijgen. Dit omvat het identificeren van soortgelijke patiënten die ziek zijn geworden na een bepaalde behandeling, wat normaal gesproken een cohortstudie van 9 maanden zou vereisen.
+
+          **Activiteiten:**
+          - Analyse van de huidige data-analyseprocessen en identificatie van knelpunten
+          - Ontwikkeling van een <mark>vectordatabase</mark> in de vorm van een grafiek om de data efficiënt te organiseren en te doorzoeken
+          - Ontwikkeling van een <mark>GraphQL</mark> om de juiste informatie uit de vectordatabase te extraheren
+          - Implementatie van een <mark>AI-model</mark> om ongestructureerde data, zoals klinische notities en foto's, te analyseren en waardevolle inzichten te verkrijgen
+          - Ontwikkeling van een <mark>RAG-systeem</mark> zonder het gebruik van LangChain, volgens de vereisten van MGH
+
+      - layout: top-middle
+        title: ICT Netherlands - LLM voor CIDT ontwikkelaars
+        sub_title: Machine Learning Developer
+        caption: Oktober 2024 - November 2024
+        quote: >
+          Implementatie van een lokaal draaiend RAG-systeem voor het doorzoeken van PDF-documentatie in een beveiligde CIDT-omgeving.
+        description: | # this will include new lines to allow paragraphs
+          **Situatie:** ASML is een toonaangevend bedrijf in de halfgeleiderindustrie, waar ICT-medewerkers werken in een CIDT-omgeving. In deze omgeving was alle documentatie alleen beschikbaar in PDF-formaat, wat het moeilijk maakte om snel en efficiënt informatie te vinden en te gebruiken.
+
+          **Taak:** Mijn taak was om een RAG-systeem te implementeren dat de efficiëntie van de ICT-medewerkers zou verhogen door hen in staat te stellen snel informatie te verkrijgen van hun omgeving. Dit systeem moest geïntegreerd worden in de bestaande infrastructuur en voldoen aan de strenge veiligheidsnormen van ASML.
+
+          **Activiteiten:**
+          - Analyse van de huidige documentatieprocessen en identificatie van knelpunten
+          - Ontwikkeling van een <mark>RAG-systeem</mark> dat de status van processen en projecten visueel weergeeft
+          - Integratie van het RAG-systeem met de bestaande infrastructuur van ASML (Zowel met <mark>image embeddings</mark> en <mark>ColPali</mark> als <mark>text embeddings</mark> met o.a. <mark>OCR</mark>)
+          - Implementatie van een <mark>lokaal draaiende LLM</mark> om de veiligheid van gevoelige gegevens te waarborgen (<mark>Quantization</mark>, <mark>offloading</mark>)
+          - Testen en valideren van het systeem in de CIDT-omgeving
+
+          **Resultaat:** Het geïmplementeerde RAG-systeem heeft de efficiëntie van de ICT-medewerkers aanzienlijk verhoogd door hen in staat te stellen snel en gemakkelijk de status van verschillende processen en projecten te zien. De lokale implementatie van de LLM heeft ervoor gezorgd dat gevoelige gegevens veilig blijven, wat voldoet aan de strenge veiligheidsnormen van ASML.
+
+      - layout: top-middle
+        title: SURFIX Diagnostics - Automatisering Data Analyse Surfix Diagnostics
+        sub_title: Data Scientist
+        caption: November 2024 - Heden
+        quote: >
+          Automatisering en optimalisatie van data-analyseprocessen voor fotonicabiosensor technologie met een versnelling van 20 minuten naar 1 seconde.
+        description: | # this will include new lines to allow paragraphs
+          **Situatie:** Surfix Diagnostics ontwikkelt innovatieve diagnostische technologieën, waaronder de fotonicabiosensor. De organisatie heeft behoefte aan snellere en efficiëntere data-analyseprocessen om de volle potentie van deze technologie te benutten.
+
+          **Taak:** Mijn taak is om de data-analyseprocessen te automatiseren en te optimaliseren om de analyse van grote datasets te versnellen en de efficiëntie te verbeteren.
+
+          **Activiteiten:**
+          - <mark>Data-opschoning</mark> en -inladen
+          - Drift-, slope-, tableau bepaling
+          - Versnelling van de analyse
+          - Toepassen van <mark>machine learning</mark> om verbanden te identificeren
+
+          **Resultaat:** Het resultaat is een significante versnelling van de data-analyse, van 20 minuten naar 1 seconde, waardoor Surfix Diagnostics sneller en efficiënter diagnoses kan stellen en onderzoek kan uitvoeren.
+
+      - layout: top-middle
+        title: ICT Nederland - Vision based object detection
+        sub_title: Data Scientist
+        caption: Oktober 2024 - November 2024
+        quote: >
+          Ontwikkeling van een YOLO OBB-model voor het detecteren van meerdere objecten, inclusief hun coördinaten, hoek en labels voor een fysieke LEGO terminal replica.
+        description: | # this will include new lines to allow paragraphs
+          **Situatie:** Ik werkte aan het project "Physical Twin Terminal" waarbij we een fysieke replica van een terminal bouwen met LEGO, inclusief kranen en autonoom rijdende voertuigen. Het doel was om een systeem te ontwikkelen dat meerdere objecten op een oppervlak (in dit geval een tafel) tegelijk kan detecteren.
+
+          **Taak:** Mijn taak was om een oplossing te vinden voor het detecteren van meerdere objecten op een oppervlak, met als doel om de coördinaten, hoek en labels van de objecten te kunnen bepalen. Ik werkte als onderzoeker en ontwikkelaar aan dit project en heb <mark>Python</mark> als programmeertaal gebruikt.
+
+          **Activiteiten:**
+          - Dataset aanmaken en annoteren met de nodige labels
+          - Training van een <mark>YOLO OBB-model</mark> om de coördinaten, hoek en labels van de objecten te kunnen bepalen
+          - Gebruik gemaakt van de <mark>OpenCV</mark>-bibliotheek in Python om het model te trainen en te testen
+          - Toepassing van verschillende technieken, zoals <mark>data-augmentatie</mark> en <mark>hyperparameter-tuning</mark>, om de prestaties van het model te verbeteren
+
+          **Resultaat:** Het resultaat was een getraind YOLO OBB-model dat in staat is om meerdere objecten op een oppervlak tegelijk te detecteren en hun coördinaten, hoek en labels te bepalen. Dit model kan nu gebruikt worden om de kranen en voertuigen in de fysieke twin te controleren en te besturen.
+
+      - layout: top-middle
         title: Generating Structured Synthetic Data; Empowering Stater's Mortgage Services with a Large Language Model
         # link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         # link_text: Project Video
