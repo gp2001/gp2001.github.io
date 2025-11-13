@@ -66,16 +66,18 @@ content:
         quote: >
           Ontwikkeling van een AI-systeem voor het analyseren van ongestructureerde medische data en het identificeren van patiëntengroepen met behulp van GraphQL en vectordatabases.
         description: | # this will include new lines to allow paragraphs
-          **Situatie:** Massachusetts General Hospital (MGH) is een vooraanstaand ziekenhuis en al meer dan 10 jaar klant bij ICT. Ze hebben een applicatie ontwikkeld voor radiologie waarmee ze precies kunnen zien in welke fase een patiënt zich bevindt tijdens radiotherapie. MGH heeft te maken met grote hoeveelheden ongestructureerde data, zoals klinische notities, waaruit veel waardevolle informatie kan worden gehaald.
+          **Situatie:** Massachusetts General Hospital (MGH) is een vooraanstaand ziekenhuis en al meer dan 10 jaar klant bij ICT. Ze hadden een applicatie ontwikkeld voor radiologie waarmee artsen precies konden zien in welke fase een patiënt zich bevond tijdens radiotherapie. MGH had te maken met grote hoeveelheden ongestructureerde data, zoals klinische notities, waaruit veel waardevolle informatie gehaald kon worden maar waarvoor geen efficiënt analysesysteem bestond.
 
-          **Taak:** Mijn taak is om een AI-oplossing te ontwikkelen die MGH helpt bij het analyseren van ongestructureerde data om waardevolle inzichten te verkrijgen. Dit omvat het identificeren van soortgelijke patiënten die ziek zijn geworden na een bepaalde behandeling, wat normaal gesproken een cohortstudie van 9 maanden zou vereisen.
+          **Taak:** Mijn taak was om een AI-oplossing te ontwikkelen die MGH zou helpen bij het analyseren van ongestructureerde data om waardevolle inzichten te verkrijgen. Het doel was om soortgelijke patiënten te kunnen identificeren die ziek waren geworden na een bepaalde behandeling, een proces dat normaal gesproken een cohortstudie van 9 maanden zou vereisen.
 
           **Activiteiten:**
-          - Analyse van de huidige data-analyseprocessen en identificatie van knelpunten
-          - Ontwikkeling van een <mark>vectordatabase</mark> in de vorm van een grafiek om de data efficiënt te organiseren en te doorzoeken
-          - Ontwikkeling van een <mark>GraphQL</mark> om de juiste informatie uit de vectordatabase te extraheren
-          - Implementatie van een <mark>AI-model</mark> om ongestructureerde data, zoals klinische notities en foto's, te analyseren en waardevolle inzichten te verkrijgen
-          - Ontwikkeling van een <mark>RAG-systeem</mark> zonder het gebruik van LangChain, volgens de vereisten van MGH
+          - Analyseerde de huidige data-analyseprocessen en identificeerde knelpunten
+          - Ontwikkelde een <mark>vectordatabase</mark> in de vorm van een grafiek om de data efficiënt te organiseren en te doorzoeken
+          - Implementeerde een <mark>GraphQL</mark> interface om de juiste informatie uit de vectordatabase te extraheren
+          - Ontwikkelde een <mark>AI-model</mark> om ongestructureerde data, zoals klinische notities en foto's, te analyseren en waardevolle inzichten te verkrijgen
+          - Bouwde een <mark>RAG-systeem</mark> zonder het gebruik van LangChain, volgens de specifieke vereisten van MGH
+
+          **Resultaat:** De AI-oplossing stelde MGH in staat om binnen enkele minuten patiëntengroepen te identificeren die vergelijkbare behandelingen hadden ondergaan en soortgelijke complicaties hadden ervaren. Dit verkortte het proces van cohortstudies van 9 maanden naar enkele minuten, waardoor artsen sneller evidence-based beslissingen konden nemen en de patiëntenzorg significant verbeterd werd.
 
       - layout: top-middle
         title: ICT Netherlands - LLM voor CIDT ontwikkelaars
@@ -104,17 +106,17 @@ content:
         quote: >
           Automatisering en optimalisatie van data-analyseprocessen voor fotonicabiosensor technologie met een versnelling van 20 minuten naar 1 seconde.
         description: | # this will include new lines to allow paragraphs
-          **Situatie:** Surfix Diagnostics ontwikkelt innovatieve diagnostische technologieën, waaronder de fotonicabiosensor. De organisatie heeft behoefte aan snellere en efficiëntere data-analyseprocessen om de volle potentie van deze technologie te benutten.
+          **Situatie:** Surfix Diagnostics ontwikkelde innovatieve diagnostische technologieën, waaronder de fotonicabiosensor. De organisatie had behoefte aan snellere en efficiëntere data-analyseprocessen om de volle potentie van deze technologie te benutten. De bestaande analyseprocessen namen te veel tijd in beslag en vormden een bottleneck in het onderzoeks- en ontwikkelingsproces.
 
-          **Taak:** Mijn taak is om de data-analyseprocessen te automatiseren en te optimaliseren om de analyse van grote datasets te versnellen en de efficiëntie te verbeteren.
+          **Taak:** Mijn taak was om de data-analyseprocessen te automatiseren en te optimaliseren om de analyse van grote datasets te versnellen en de efficiëntie te verbeteren. Het doel was om de doorlooptijd drastisch te verkorten zonder verlies van nauwkeurigheid.
 
           **Activiteiten:**
-          - <mark>Data-opschoning</mark> en -inladen
-          - Drift-, slope-, tableau bepaling
-          - Versnelling van de analyse
-          - Toepassen van <mark>machine learning</mark> om verbanden te identificeren
+          - Voerde <mark>data-opschoning</mark> en -inladen uit om de kwaliteit van de datasets te waarborgen
+          - Implementeerde automatische drift-, slope- en tableau bepaling
+          - Optimaliseerde de analyse-algoritmes voor snelheidsverbetering
+          - Paste <mark>machine learning</mark> technieken toe om verbanden te identificeren en voorspellende modellen te ontwikkelen
 
-          **Resultaat:** Het resultaat is een significante versnelling van de data-analyse, van 20 minuten naar 1 seconde, waardoor Surfix Diagnostics sneller en efficiënter diagnoses kan stellen en onderzoek kan uitvoeren.
+          **Resultaat:** Ik realiseerde een significante versnelling van de data-analyse, van 20 minuten naar 1 seconde per dataset. Dit stelde Surfix Diagnostics in staat om sneller en efficiënter diagnoses te stellen en onderzoek uit te voeren, wat de ontwikkelcyclus van nieuwe diagnostische tests aanzienlijk verkortte.
 
       - layout: top-middle
         title: ICT Nederland - Vision based object detection
@@ -140,45 +142,62 @@ content:
         # link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         # link_text: Project Video
         quote: >
-          In dit project heb ik ruwe data om weten te zetten door middel van LLMs naar een ORPO Dataset voor het genereren van een fine-tuned LLM
+          Conversie van ruwe website data naar een ORPO dataset door middel van LLMs voor het fine-tunen van een hypotheekadvies model.
         description: | # this will include new lines to allow paragraphs
-          Ik heb recent ervaring opgedaan met het omzetten van ruwe website scraped data naar een ORPO (Odd Ratio Preference Optimization) dataset met behulp van <mark>Large Language Models (LLMs)</mark> en <mark>prompt engineering</mark>. Ik heb geleerd hoe ik LLMs kan trainen en fine-tunen om specifieke taken uit te voeren, zoals het omzetten van ongestructureerde data naar een gestructureerd formaat.
+          **Situatie:** Stater biedt hypotheekdiensten aan en wilde hun dienstverlening verbeteren met AI-technologie. Het bedrijf had ruwe, ongestructureerde data van websites verzameld, maar deze data was niet geschikt voor directe verwerking door <mark>Large Language Models (LLMs)</mark>. Er was behoefte aan een gestructureerde dataset om een gespecialiseerd model te kunnen trainen voor hypotheekadvies.
 
-          In dit project heb ik vooral gewerkt aan het ontwikkelen van prompts en het trainen van LLMs om de data om te zetten. Ik heb ook ervaring opgedaan met het optimaliseren van de prestaties van de LLMs en het verbeteren van de nauwkeurigheid van de resultaten.
+          **Taak:** Mijn taak was om de ruwe website scraped data om te zetten naar een ORPO (Odd Ratio Preference Optimization) dataset die geschikt was voor het fine-tunen van een LLM. Het doel was om een kwalitatief hoogwaardige dataset te creëren die gebruikt kon worden om een model te trainen dat accurate hypotheekinformatie kon verstrekken.
 
-          Een belangrijk onderdeel van het project was de validatie van de gegenereerde data. Ik heb hiervoor gebruik gemaakt van verschillende checks, zoals de halucination score en token similariteitsanalyses. Deze checks hebben mij geholpen om de kwaliteit van de gegenereerde data te beoordelen en te verbeteren.
+          **Activiteiten:**
+          - Ontwikkelde <mark>prompts</mark> voor het omzetten van ongestructureerde data naar gestructureerd formaat
+          - Paste <mark>prompt engineering</mark> technieken toe om de kwaliteit van de data-conversie te optimaliseren
+          - Trainee en fine-tunede LLMs om specifieke taken uit te voeren in de data-omzetting
+          - Implementeerde validatiechecks zoals <mark>halucination score</mark> en <mark>token similariteitsanalyses</mark> om de kwaliteit te waarborgen
+          - Optimaliseerde de prestaties van de LLMs en verbeterde de nauwkeurigheid van de resultaten iteratief
 
-          Door dit project heb ik een dieper inzicht gekregen in de mogelijkheden en beperkingen van LLMs en prompt engineering, en heb ik geleerd hoe ik deze technologieën kan inzetten om complexe data-omzettingstaken uit te voeren. Ook heb ik ervaring opgedaan met het <mark>valideren</mark> van gegenereerde data en het gebruik van verschillende checks om de kwaliteit te beoordelen. Ik ben trots op wat ik heb bereikt en kijk uit naar toekomstige projecten waarin ik deze vaardigheden kan toepassen."
+          **Resultaat:** Ik produceerde een hoogwaardige ORPO dataset die gebruikt werd voor het fine-tunen van een LLM specifiek voor hypotheekadvies. De validatiechecks toonden aan dat de gegenereerde data van hoge kwaliteit was met minimale hallucinaties. Dit stelde Stater in staat om een gespecialiseerd AI-model te implementeren dat klanten kon ondersteunen bij hypotheekvragen.
+
       - layout: top-middle
         title: Verdachte Tijdlijn
         link: https://www.youtube.com/watch?v=vV1JjrZjnxk
         link_text: Project Video
         quote: >
-          In dit project heb ik in een groep van 10 studenten een programma gerealiseerd voor de Nationale Poltie en Koninklijke Marechaussee.
+          Ontwikkeling van een AI-systeem voor de Nationale Politie en Koninklijke Marechaussee om camerabeelden om te zetten naar doorzoekbare tekstbeschrijvingen.
         description: | # this will include new lines to allow paragraphs
-          Ik heb hier meer ervaring opgedaan met <mark>Scrum</mark>, <mark>Agile Werken</mark>, <mark>Retro's</mark>, <mark>Docker</mark>, <mark>Python</mark> en <mark>GitHub</mark>.
-          We moesten camerabeelden omzetten in zinnen, zodat er legaal naar objecten gezocht zou kunnen worden. Aan dit project heb ik vooral gewerkt aan de <mark>Back-End</mark>.
-          Ik heb geleerd om <mark>objectdetectie</mark> en <mark>tracking</mark> toe te passen. Ook heb ik een model zelf getraind voor <mark>kledingdetectie</mark> en heb ik een <mark>kleurendetectie</mark> zelf geschreven.
-          We waren een half jaar bezig om dit fantastische project te realiseren, klik op de link om de video te bekijken.
-      - layout: top-middle
-        title: Automatisch Factureren
-        link: gp2001.github.io/facturen
-        link_text: Website
-#        additional_links:
-#          - title: gp2001/IntroductieProject
-#            icon: fab fa-github
-#            url: https://github.com/gp2001/IntroductieProject
-        quote: >
-          Deze website maakt het makkelijker om facturen te genereren.
-        description: | # this will include new lines to allow paragraphs
-          Ik heb hier mijn <mark>JavaScript</mark> vaardigheden vooral verbeterd.
+          **Situatie:** De Nationale Politie en Koninklijke Marechaussee hadden grote hoeveelheden camerabeelden die handmatig moesten worden doorzocht, een tijdrovend en inefficiënt proces. Er was behoefte aan een systeem dat automatisch objecten in camerabeelden kon detecteren en omzetten naar tekstbeschrijvingen, zodat er legaal en efficiënt naar specifieke objecten gezocht kon worden. Ik werkte aan dit project in een multidisciplinair team van 10 studenten gedurende een half jaar.
+
+          **Taak:** Mijn taak was om de <mark>Back-End</mark> architectuur te ontwikkelen die camerabeelden kon verwerken en omzetten naar gestructureerde tekstbeschrijvingen. Ik was verantwoordelijk voor de implementatie van objectdetectie-, tracking- en attribuutherkenningsmodellen.
+
+          **Activiteiten:**
+          - Implementeerde <mark>objectdetectie</mark> en <mark>tracking</mark> algoritmes om objecten door videomateriaal te volgen
+          - Trainde een custom model voor <mark>kledingdetectie</mark> om specifieke kledingstukken te herkennen
+          - Ontwikkelde een <mark>kleurendetectie</mark> algoritme om kleuren van objecten nauwkeurig te bepalen
+          - Werkte met <mark>Scrum</mark> en <mark>Agile</mark> methodologieën, inclusief regelmatige <mark>Retro's</mark>
+          - Implementeerde de oplossing met <mark>Docker</mark>, <mark>Python</mark> en versiebeheer via <mark>GitHub</mark>
+          - Zorgde voor de integratie van alle componenten in een werkend systeem
+
+          **Resultaat:** Ik leverde een werkend Back-End systeem dat camerabeelden automatisch kon analyseren en omzetten naar doorzoekbare tekstbeschrijvingen. Het systeem stelde de politie in staat om efficiënt te zoeken naar personen op basis van kledingkenmerken en kleuren, wat de onderzoekstijd significant verkortte. Het eindproduct werd succesvol gedemonstreerd aan de opdrachtgevers, zoals te zien is in de projectvideo.
+
       - layout: top-middle
         title: Websites voor Diverse Klanten
         link: https://www.polezait.nl
         quote: >
-          Ik heb meerdere websites ontwikkeld voor verschillende bedrijven en professionals onder mijn bedrijfje Polezait.nl.
+          Ontwikkeling van op maat gemaakte websites voor verschillende bedrijven en professionals via mijn eigen webontwikkelbedrijf Polezait.nl.
         description: | # this will include new lines to allow paragraphs
-          Als eigenaar en webontwikkelaar van Polezait.nl heb ik een reeks op maat gemaakte websites gecreëerd om tegemoet te komen aan de unieke behoeften van diverse klanten. Mijn werk omvatte het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Bij elk project heb ik mijn vaardigheden in <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark> toegepast en verbeterd om moderne en functionele websites te leveren die de identiteit en doelen van mijn klanten weerspiegelen. Deze ervaring heeft mijn vermogen versterkt om effectief te communiceren met klanten, hun visie te begrijpen en te vertalen naar tastbare digitale oplossingen.
+          **Situatie:** Als eigenaar van Polezait.nl ontving ik verzoeken van verschillende klanten die een professionele online aanwezigheid nodig hadden. Restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers hadden behoefte aan moderne, functionele websites die hun diensten effectief presenteerden. Veel zzp'ers hadden daarnaast ook behoefte aan geautomatiseerde facturatie-oplossingen om hun administratie te vereenvoudigen.
+
+          **Taak:** Mijn taak was om voor elke klant een op maat gemaakte website te ontwerpen en ontwikkelen die aansloot bij hun specifieke behoeften, merkidentiteit en doelgroep. Ik was verantwoordelijk voor het volledige ontwikkelproces, van requirements-analyse tot deployment en onderhoud.
+
+          **Activiteiten:**
+          - Voerde intakegesprekken met klanten om hun visie, doelen en functionele vereisten te begrijpen
+          - Ontwierp en implementeerde responsive websites met <mark>HTML</mark>, <mark>CSS</mark> en <mark>JavaScript</mark>
+          - Creëerde voor zzp'ers een geautomatiseerd facturatiesysteem dat facturen kon genereren en beheren
+          - Optimaliseerde websites voor performance, SEO en gebruiksvriendelijkheid
+          - Onderhield voortdurende communicatie met klanten om feedback te verwerken en aanpassingen door te voeren
+          - Verzorgde de deployment en hosting van de websites
+
+          **Resultaat:** Ik leverde moderne, functionele websites die de identiteit en doelen van mijn klanten effectief weerspiegelden. De facturatie-tool voor zzp'ers verkortte hun administratietijd aanzienlijk. Klanten rapporteerden verbeterde online zichtbaarheid en klantenwerving. Deze projecten versterkten mijn vaardigheden in webontwikkeling en klantcommunicatie, en bouwden mijn portfolio als veelzijdige webontwikkelaar verder uit.
+
       - layout: top-middle
         title: DisneyRoute
         link: https://www.instagram.com/disneyroute/
@@ -191,9 +210,20 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Hier heb ik mijn eerste ervaringen opgedaan met het werken in teamverband, snelste route-algoritme, databases en meer.
+          Ontwikkeling van een route-optimalisatie applicatie voor Disneyland Paris met pathfinding algoritmes en database-integratie.
         description: | # this will include new lines to allow paragraphs
-          Dit project was om meer te leren met <mark>C#</mark>.
+          **Situatie:** Disneyland Paris bezoekers hadden moeite om hun parkbezoek efficiënt te plannen, wat resulteerde in lange wachttijden en gemiste attracties. Er was behoefte aan een tool die automatisch de optimale route door het park kon berekenen rekening houdend met wachttijden, attractielocaties en gebruikersvoorkeuren. Dit was mijn introductieproject waarin ik voor het eerst in teamverband werkte aan een groter softwareproject.
+
+          **Taak:** Mijn taak was om bij te dragen aan de ontwikkeling van een route-optimalisatie applicatie die bezoekers de snelste route door Disneyland Paris kon berekenen. Ik was verantwoordelijk voor het implementeren van pathfinding algoritmes en de database-integratie.
+
+          **Activiteiten:**
+          - Implementeerde <mark>snelste route-algoritmes</mark> (zoals Dijkstra's algoritme) om optimale paden te berekenen
+          - Ontwikkelde de <mark>database</mark> structuur voor het opslaan van attractiegegevens, locaties en wachttijden
+          - Werkte in <mark>teamverband</mark> met andere studenten en leerde effectief te communiceren en taken te verdelen
+          - Programmeerde de applicatie in <mark>C#</mark> en maakte gebruik van object-georiënteerd programmeren
+          - Integreerde verschillende componenten tot een werkend geheel
+
+          **Resultaat:** Ik leverde een werkende route-optimalisatie applicatie die gebruikers hielp hun Disneyland Paris bezoek efficiënter te plannen. Het project gaf mij waardevolle eerste ervaring met algoritmes, databases, teamwerk en softwareontwikkeling in C#. De applicatie wordt gedocumenteerd op de bijbehorende Instagram en GitHub pagina.
 
   - title: Werk Ervaringen # Title for the section
     layout: list # Type of content section (list/text)
