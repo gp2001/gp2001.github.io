@@ -8,10 +8,14 @@
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+  <link rel="stylesheet" href="{{ '/assets/css/language-switcher.css' | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 
   <!-- PDF Export functionality via print -->
   <script src="{{ '/assets/js/pdf-export.js' | relative_url }}"></script>
+  
+  <!-- Language Switcher -->
+  <script src="{{ '/assets/js/language-switcher.js' | relative_url }}"></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
