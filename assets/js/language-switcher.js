@@ -71,16 +71,36 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
   function cacheOriginalContent() {
     if (contentCached) return;
     
-    // Cache project descriptions
-    document.querySelectorAll('.layout').forEach((layout, index) => {
-      const quote = layout.querySelector('blockquote');
-      const description = layout.querySelector('.col-print-12, .col-md-9');
-      const caption = layout.querySelector('.details p:nth-of-type(2)');
+    // Cache project content
+    document.querySelectorAll('.list-container .layout').forEach((layout, index) => {
+      const details = layout.querySelector('.details');
+      const content = layout.querySelector('.content');
+      
+      if (!details || !content) return;
+      
+      const title = details.querySelector('h4');
+      const subtitleElem = details.querySelector('p b');
+      const subtitleParent = subtitleElem ? subtitleElem.parentElement : null;
+      
+      // Find caption - it's usually the second <p> or third child p
+      const allPs = details.querySelectorAll('p');
+      let captionElem = null;
+      for (let p of allPs) {
+        if (!p.classList.contains('no-print') && !p.querySelector('b') && !p.querySelector('a')) {
+          captionElem = p;
+          break;
+        }
+      }
+      
+      const quote = content.querySelector('.quote');
       
       originalContent[`project_${index}`] = {
+        title: title ? title.innerHTML : '',
+        subtitle: subtitleElem ? subtitleElem.textContent : '',
+        subtitleHTML: subtitleParent ? subtitleParent.innerHTML : '',
+        caption: captionElem ? captionElem.textContent : '',
         quote: quote ? quote.innerHTML : '',
-        description: description ? description.innerHTML : '',
-        caption: caption ? caption.textContent : ''
+        contentHTML: content.innerHTML
       };
     });
     
@@ -89,41 +109,98 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
 
   // Function to translate project content
   function translateProjects(lang) {
+    const layouts = document.querySelectorAll('.list-container .layout');
+    
     if (lang === 'nl') {
       // Restore original Dutch content
-      document.querySelectorAll('.layout').forEach((layout, index) => {
+      layouts.forEach((layout, index) => {
         const cached = originalContent[`project_${index}`];
         if (!cached) return;
         
-        const quote = layout.querySelector('blockquote');
-        const description = layout.querySelector('.col-print-12, .col-md-9');
-        const caption = layout.querySelector('.details p:nth-of-type(2)');
+        const details = layout.querySelector('.details');
+        const content = layout.querySelector('.content');
+        if (!details || !content) return;
         
-        if (quote && cached.quote) quote.innerHTML = cached.quote;
-        if (description && cached.description) description.innerHTML = cached.description;
-        if (caption && cached.caption) caption.textContent = cached.caption;
+        const title = details.querySelector('h4');
+        const subtitleElem = details.querySelector('p b');
+        const subtitleParent = subtitleElem ? subtitleElem.parentElement : null;
+        
+        // Find caption
+        const allPs = details.querySelectorAll('p');
+        let captionElem = null;
+        for (let p of allPs) {
+          if (!p.classList.contains('no-print') && !p.querySelector('b') && !p.querySelector('a')) {
+            captionElem = p;
+            break;
+          }
+        }
+        
+        // Restore all content
+        if (title && cached.title) title.innerHTML = cached.title;
+        if (subtitleParent && cached.subtitleHTML) subtitleParent.innerHTML = cached.subtitleHTML;
+        if (captionElem && cached.caption) captionElem.textContent = cached.caption;
+        if (cached.contentHTML) content.innerHTML = cached.contentHTML;
       });
     } else if (lang === 'en' && window.englishContent) {
       // Apply English translations
-      const layouts = document.querySelectorAll('.layout');
       const projects = window.englishContent.projects;
       
       layouts.forEach((layout, index) => {
         if (index >= projects.length) return;
         
         const project = projects[index];
-        const quote = layout.querySelector('blockquote');
-        const description = layout.querySelector('.col-print-12, .col-md-9');
-        const caption = layout.querySelector('.details p:nth-of-type(2)');
+        const details = layout.querySelector('.details');
+        const content = layout.querySelector('.content');
+        if (!details || !content) return;
         
+        const title = details.querySelector('h4');
+        const subtitleElem = details.querySelector('p b');
+        
+        // Find caption
+        const allPs = details.querySelectorAll('p');
+        let captionElem = null;
+        for (let p of allPs) {
+          if (!p.classList.contains('no-print') && !p.querySelector('b') && !p.querySelector('a')) {
+            captionElem = p;
+            break;
+          }
+        }
+        
+        const quote = content.querySelector('.quote');
+        
+        // Update title, subtitle, caption
+        if (title && project.title) {
+          title.textContent = project.title;
+        }
+        if (subtitleElem && project.sub_title) {
+          subtitleElem.textContent = project.sub_title;
+        }
+        if (captionElem && project.caption) {
+          captionElem.textContent = project.caption;
+        }
         if (quote && project.quote) {
           quote.innerHTML = project.quote;
         }
-        if (description && project.description) {
-          description.innerHTML = project.description;
-        }
-        if (caption && project.caption) {
-          caption.textContent = project.caption;
+        
+        // Update description
+        if (project.description) {
+          // Split into paragraphs and convert markdown
+          const paragraphs = project.description.split('\n\n');
+          let htmlContent = '';
+          
+          paragraphs.forEach(para => {
+            if (para.trim()) {
+              // Convert markdown bold to HTML
+              let html = para.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+              // Convert line breaks within paragraphs
+              html = html.replace(/\n/g, '<br>\n');
+              // Wrap in paragraph tag
+              htmlContent += '<p>' + html + '</p>\n';
+            }
+          });
+          
+          const quoteHTML = quote ? quote.outerHTML : '';
+          content.innerHTML = quoteHTML + htmlContent;
         }
       });
     }
