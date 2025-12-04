@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
   <link rel="stylesheet" href="{{ '/assets/css/language-switcher.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/chatbot.css' | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 
   <!-- PDF Export functionality via print -->
@@ -17,6 +18,9 @@
   <!-- Language Switcher -->
   <script src="{{ '/assets/js/english-content.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/language-switcher.js' | relative_url }}"></script>
+  
+  <!-- AI Chatbot -->
+  <script src="{{ '/assets/js/chatbot.js' | relative_url }}" defer></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
