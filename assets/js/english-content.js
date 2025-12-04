@@ -162,5 +162,116 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
 - Gaming: I enjoy relaxing with a video game from time to time.
 - Personal development: I am always looking for ways to improve myself and learn new skills.
 - Networking: I enjoy meeting new people and learning from their experiences.
-- Going on adventures: I love discovering new places and gaining new experiences, both in my own environment and beyond. I am always willing to step out of my comfort zone and take on new challenges.`
+- Going on adventures: I love discovering new places and gaining new experiences, both in my own environment and beyond. I am always willing to step out of my comfort zone and take on new challenges.`,
+
+  workExperience: [
+    {
+      title: 'Albert Heijn',
+      sub_title: 'Team Leader',
+      caption: 'January 2017 - March 2019',
+      quote: 'Gaining leadership and social experience.',
+      description: 'Every company needs someone who maintains order and provides instructions to keep the business running. This brings challenges in keeping employees optimally and positively engaged. Here I obtained my <mark>Company First Aid certificate</mark>.'
+    },
+    {
+      title: 'Groot en Klein',
+      sub_title: 'Mover',
+      caption: 'July 2019 - September 2019',
+      quote: 'Gaining heavy work experience.',
+      description: 'A company needs employees who are capable of performing heavy work. This experience helps them understand how this should be done and to develop communication skills.'
+    },
+    {
+      title: "Picnic, Dani's Corner and Parakalo",
+      sub_title: 'Delivery Driver',
+      caption: 'January 2020 - September 2020',
+      quote: 'Gaining driving experience.',
+      description: 'After obtaining my driver\'s license, I improved my driving experience here.'
+    },
+    {
+      title: 'Covebo',
+      sub_title: 'General Employee',
+      caption: 'June 2020 - August 2020',
+      quote: 'Heavy summer job',
+      description: 'A company needs employees who are capable of performing heavy work. This experience helps them understand how this should be done and to develop communication skills.'
+    },
+    {
+      title: 'Unagi Sushi',
+      sub_title: 'Floor Manager',
+      caption: 'September 2020 - 2023',
+      quote: 'Study cost earnings',
+      description: 'Here I perform cash register duties, manage delivery drivers, pack orders, help in the kitchen, and deliver.'
+    },
+    {
+      title: 'Youngones',
+      sub_title: 'Freelancer',
+      caption: 'June 2020 - Present',
+      quote: 'Gaining experience in multiple types of jobs.',
+      description: 'A freelancer has many responsibilities, I do this for extra income and the associated experiences.'
+    },
+    {
+      title: 'Polezait.nl',
+      sub_title: 'Owner & Web Developer',
+      caption: 'January 2022 - Present',
+      quote: 'Designing and developing custom websites for various businesses and professionals.',
+      description: 'As owner and web developer of Polezait.nl, I have been involved in creating attractive and functional websites for different types of businesses. My work included developing websites for restaurants, hairdressers, realtors, solar panel companies, and freelancers who need automated invoicing solutions. I have applied and improved my skills in HTML, CSS, and JavaScript to meet the specific needs of each client, while simultaneously strengthening my ability to communicate effectively with clients and translate their vision into tangible digital solutions. This work has provided me with valuable experience in both technical and business aspects of web development, allowing me to continue developing as a competent and versatile web developer.'
+    },
+    {
+      title: 'ICT Group',
+      sub_title: 'Software Engineer',
+      caption: 'September 2024 - Present',
+      quote: 'Developing innovative software solutions for various companies and organizations.',
+      description: 'As a software engineer at ICT Group, I am involved in developing complex software solutions for different types of companies and organizations. My work includes developing software solutions for various domains, including healthcare, automotive, traffic, hightech, and energy. I have applied and improved my skills in programming languages such as Python and C# to meet the specific needs of each client, while simultaneously expanding my knowledge through training in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. This work has provided me with valuable experience in both technical and business aspects of software development, allowing me to continue developing as a competent and versatile software engineer.'
+    },
+    {
+      title: 'Volunteer Work',
+      sub_title: 'Het Geinsche Hof, Stichting Al Fadi and Community Foundation.',
+      caption: '40+ hours',
+      quote: 'Positive unpaid contribution to society.',
+      description: 'Supporting the elderly, helping the neighborhood move forward, and making communities feel more at home in a new living situation. I believe commitment to a good cause is important because people should also show their good side.'
+    }
+  ],
+
+  education: [
+    {
+      title: 'Utrecht University',
+      caption: '2023 - 2024',
+      sub_title: 'MSc Applied Data Science',
+      quote: 'In Utrecht, students look beyond the boundaries of their field. Students and top researchers work together in close-knit communities for a better future.',
+      description: 'During my WO master\'s in Applied Data Science, I gained advanced knowledge and skills in data analysis, machine learning, and statistical modeling, enabling me to analyze complex datasets, gain valuable insights, and develop predictive models for data-driven decision-making.'
+    },
+    {
+      title: 'Utrecht University',
+      caption: '2020 - 2023',
+      sub_title: 'BSc Computer Science',
+      quote: '',
+      description: 'During my WO bachelor\'s in computer science, I developed a deep understanding of programming concepts, algorithms, data structures, and system analysis, enabling me to design and implement complex software solutions.'
+    },
+    {
+      title: 'Pre-University Education / Atheneum',
+      caption: 'September 2014 - July 2020',
+      sub_title: 'NT/NG with Economics',
+      quote: 'At school, you acquire knowledge and skills that help you grow towards independence. Our school is a safe environment where people know you. An environment that also offers room to grow towards maturity. Falling and getting up is part of it, as is exploring the world. Good education is the first thing you may expect from a school. Learning happens at Cals College in classes and beyond. Students have their own qualities and interests. They can further develop these through the wide range of activities.',
+      description: 'During my secondary school years, I took on many challenges. I chose the most difficult subject packages and therefore graduated with two diplomas. In addition to these diplomas, I also obtained a Goethe-Zertifikat. In my third year, I received a final report with an average of 8.8. This gave me the opportunity to participate in projects in collaboration with Utrecht University.'
+    }
+  ],
+
+  certificates: [
+    {
+      title: 'Microsoft Certified Azure AI Fundamentals',
+      caption: '2024~',
+      quote: 'This certification demonstrates that I have knowledge of the basic principles of Azure AI Services and how they can be used to develop and implement AI solutions.',
+      description: 'In this training, I became familiar with the basic principles of Azure AI Services and learned how to develop and implement AI solutions using Azure. I gained experience working with Azure AI Services, setting up AI models, and performing AI analysis in Azure. This certification has strengthened my knowledge and skills in Azure AI and enabled me to work effectively with Azure AI Services.'
+    },
+    {
+      title: 'Microsoft Certified Azure Data Fundamentals',
+      caption: '2024~',
+      quote: 'This certification demonstrates that I have knowledge of the basic principles of Azure Data Services and how they can be used to manage and analyze data.',
+      description: 'In this training, I became familiar with the basic principles of Azure Data Services and learned how to manage and analyze data using Azure. I gained experience working with Azure Data Services, setting up data storage, and performing data analysis in Azure. This certification has strengthened my knowledge and skills in Azure and enabled me to work effectively with Azure Data Services.'
+    },
+    {
+      title: 'Explore Rust',
+      caption: '2024~',
+      quote: 'Rust is a systems language designed to create safe and efficient software.',
+      description: 'In this training, I became familiar with the basic principles of Rust and learned how to develop safe and efficient software with this language. I gained experience writing code in Rust, compiling programs, and using the Rust toolchain. This training has strengthened my knowledge and skills in Rust and enabled me to develop complex software solutions with this language.'
+    }
+  ]
 };

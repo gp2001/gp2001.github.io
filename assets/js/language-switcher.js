@@ -71,50 +71,86 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
   function cacheOriginalContent() {
     if (contentCached) return;
     
-    // Cache project content
-    document.querySelectorAll('.list-container .layout').forEach((layout, index) => {
-      const details = layout.querySelector('.details');
-      const content = layout.querySelector('.content');
+    // Cache all section content
+    const sections = document.querySelectorAll('.list-container');
+    
+    sections.forEach((section) => {
+      const sectionTitle = section.querySelector('h3');
+      const sectionId = sectionTitle ? sectionTitle.id : '';
       
-      if (!details || !content) return;
-      
-      const title = details.querySelector('h4');
-      const subtitleElem = details.querySelector('p b');
-      const subtitleParent = subtitleElem ? subtitleElem.parentElement : null;
-      
-      // Find caption - it's usually the second <p> or third child p
-      const allPs = details.querySelectorAll('p');
-      let captionElem = null;
-      for (let p of allPs) {
-        if (!p.classList.contains('no-print') && !p.querySelector('b') && !p.querySelector('a')) {
-          captionElem = p;
-          break;
+      section.querySelectorAll('.layout').forEach((layout, index) => {
+        const details = layout.querySelector('.details');
+        const content = layout.querySelector('.content');
+        
+        if (!details || !content) return;
+        
+        const title = details.querySelector('h4');
+        const subtitleElem = details.querySelector('p b');
+        const subtitleParent = subtitleElem ? subtitleElem.parentElement : null;
+        
+        // Find caption - it's usually the second <p> or third child p
+        const allPs = details.querySelectorAll('p');
+        let captionElem = null;
+        for (let p of allPs) {
+          if (!p.classList.contains('no-print') && !p.querySelector('b') && !p.querySelector('a')) {
+            captionElem = p;
+            break;
+          }
         }
-      }
-      
-      const quote = content.querySelector('.quote');
-      
-      originalContent[`project_${index}`] = {
-        title: title ? title.innerHTML : '',
-        subtitle: subtitleElem ? subtitleElem.textContent : '',
-        subtitleHTML: subtitleParent ? subtitleParent.innerHTML : '',
-        caption: captionElem ? captionElem.textContent : '',
-        quote: quote ? quote.innerHTML : '',
-        contentHTML: content.innerHTML
-      };
+        
+        const quote = content.querySelector('.quote');
+        
+        const cacheKey = `${sectionId}_${index}`;
+        originalContent[cacheKey] = {
+          title: title ? title.innerHTML : '',
+          subtitle: subtitleElem ? subtitleElem.textContent : '',
+          subtitleHTML: subtitleParent ? subtitleParent.innerHTML : '',
+          caption: captionElem ? captionElem.textContent : '',
+          quote: quote ? quote.innerHTML : '',
+          contentHTML: content.innerHTML
+        };
+      });
     });
     
     contentCached = true;
   }
 
-  // Function to translate project content
+  // Function to translate all list content (projects, work experience, education, certificates)
   function translateProjects(lang) {
-    const layouts = document.querySelectorAll('.list-container .layout');
+    // Get all section containers
+    const sections = document.querySelectorAll('.list-container');
+    
+    sections.forEach((section, sectionIndex) => {
+      const sectionTitle = section.querySelector('h3');
+      const sectionId = sectionTitle ? sectionTitle.id : '';
+      
+      // Determine which translation array to use based on section
+      let translationArray = null;
+      if (lang === 'en' && window.englishContent) {
+        if (sectionId === 'projecten' || sectionId === 'projects') {
+          translationArray = window.englishContent.projects;
+        } else if (sectionId === 'werk-ervaringen' || sectionId === 'work-experience') {
+          translationArray = window.englishContent.workExperience;
+        } else if (sectionId === 'educatie' || sectionId === 'education') {
+          translationArray = window.englishContent.education;
+        } else if (sectionId === 'certificaten' || sectionId === 'certificates') {
+          translationArray = window.englishContent.certificates;
+        }
+      }
+      
+      translateSectionContent(section, lang, translationArray, sectionId);
+    });
+  }
+  
+  // Function to translate content in a specific section
+  function translateSectionContent(section, lang, translationArray, sectionId) {
+    const layouts = section.querySelectorAll('.layout');
     
     if (lang === 'nl') {
       // Restore original Dutch content
       layouts.forEach((layout, index) => {
-        const cached = originalContent[`project_${index}`];
+        const cacheKey = `${sectionId}_${index}`;
+        const cached = originalContent[cacheKey];
         if (!cached) return;
         
         const details = layout.querySelector('.details');
@@ -141,14 +177,12 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
         if (captionElem && cached.caption) captionElem.textContent = cached.caption;
         if (cached.contentHTML) content.innerHTML = cached.contentHTML;
       });
-    } else if (lang === 'en' && window.englishContent) {
+    } else if (lang === 'en' && translationArray) {
       // Apply English translations
-      const projects = window.englishContent.projects;
-      
       layouts.forEach((layout, index) => {
-        if (index >= projects.length) return;
+        if (index >= translationArray.length) return;
         
-        const project = projects[index];
+        const item = translationArray[index];
         const details = layout.querySelector('.details');
         const content = layout.querySelector('.content');
         if (!details || !content) return;
@@ -169,23 +203,23 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
         const quote = content.querySelector('.quote');
         
         // Update title, subtitle, caption
-        if (title && project.title) {
-          title.textContent = project.title;
+        if (title && item.title) {
+          title.textContent = item.title;
         }
-        if (subtitleElem && project.sub_title) {
-          subtitleElem.textContent = project.sub_title;
+        if (subtitleElem && item.sub_title) {
+          subtitleElem.textContent = item.sub_title;
         }
-        if (captionElem && project.caption) {
-          captionElem.textContent = project.caption;
+        if (captionElem && item.caption) {
+          captionElem.textContent = item.caption;
         }
-        if (quote && project.quote) {
-          quote.innerHTML = project.quote;
+        if (quote && item.quote) {
+          quote.innerHTML = item.quote;
         }
         
         // Update description
-        if (project.description) {
+        if (item.description) {
           // Split into paragraphs and convert markdown
-          const paragraphs = project.description.split('\n\n');
+          const paragraphs = item.description.split('\n\n');
           let htmlContent = '';
           
           paragraphs.forEach(para => {
