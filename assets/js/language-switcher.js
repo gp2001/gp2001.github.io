@@ -63,10 +63,144 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
   // Get current language from localStorage or default to 'nl'
   let currentLang = localStorage.getItem('preferredLanguage') || 'nl';
 
+  // Store original Dutch content on first load
+  let originalContent = {};
+  let contentCached = false;
+
+  // Cache original Dutch content
+  function cacheOriginalContent() {
+    if (contentCached) return;
+    
+    // Cache project descriptions
+    document.querySelectorAll('.layout').forEach((layout, index) => {
+      const quote = layout.querySelector('blockquote');
+      const description = layout.querySelector('.col-print-12, .col-md-9');
+      const caption = layout.querySelector('.details p:nth-of-type(2)');
+      
+      originalContent[`project_${index}`] = {
+        quote: quote ? quote.innerHTML : '',
+        description: description ? description.innerHTML : '',
+        caption: caption ? caption.textContent : ''
+      };
+    });
+    
+    contentCached = true;
+  }
+
+  // Function to translate project content
+  function translateProjects(lang) {
+    if (lang === 'nl') {
+      // Restore original Dutch content
+      document.querySelectorAll('.layout').forEach((layout, index) => {
+        const cached = originalContent[`project_${index}`];
+        if (!cached) return;
+        
+        const quote = layout.querySelector('blockquote');
+        const description = layout.querySelector('.col-print-12, .col-md-9');
+        const caption = layout.querySelector('.details p:nth-of-type(2)');
+        
+        if (quote && cached.quote) quote.innerHTML = cached.quote;
+        if (description && cached.description) description.innerHTML = cached.description;
+        if (caption && cached.caption) caption.textContent = cached.caption;
+      });
+    } else if (lang === 'en' && window.englishContent) {
+      // Apply English translations
+      const layouts = document.querySelectorAll('.layout');
+      const projects = window.englishContent.projects;
+      
+      layouts.forEach((layout, index) => {
+        if (index >= projects.length) return;
+        
+        const project = projects[index];
+        const quote = layout.querySelector('blockquote');
+        const description = layout.querySelector('.col-print-12, .col-md-9');
+        const caption = layout.querySelector('.details p:nth-of-type(2)');
+        
+        if (quote && project.quote) {
+          quote.innerHTML = project.quote;
+        }
+        if (description && project.description) {
+          description.innerHTML = project.description;
+        }
+        if (caption && project.caption) {
+          caption.textContent = project.caption;
+        }
+      });
+    }
+  }
+
+  // STAR label translations
+  const starLabels = {
+    nl: {
+      'Situatie:': 'Situatie:',
+      'Taak:': 'Taak:',
+      'Activiteiten:': 'Activiteiten:',
+      'Resultaat:': 'Resultaat:',
+      'Heden': 'Heden'
+    },
+    en: {
+      'Situatie:': 'Situation:',
+      'Taak:': 'Task:',
+      'Activiteiten:': 'Activities:',
+      'Resultaat:': 'Result:',
+      'Heden': 'Present'
+    }
+  };
+
+  // Function to translate STAR labels in content
+  function translateSTARLabels(lang) {
+    const descriptions = document.querySelectorAll('.layout p, .layout li');
+    const labels = starLabels[lang];
+    
+    descriptions.forEach(element => {
+      let html = element.innerHTML;
+      
+      // Translate STAR labels
+      if (lang === 'en') {
+        html = html.replace(/\*\*Situatie:\*\*/g, '**Situation:**');
+        html = html.replace(/\*\*Taak:\*\*/g, '**Task:**');
+        html = html.replace(/\*\*Activiteiten:\*\*/g, '**Activities:**');
+        html = html.replace(/\*\*Resultaat:\*\*/g, '**Result:**');
+        html = html.replace(/Heden/g, 'Present');
+        html = html.replace(/Oktober/g, 'October');
+      } else {
+        html = html.replace(/\*\*Situation:\*\*/g, '**Situatie:**');
+        html = html.replace(/\*\*Task:\*\*/g, '**Taak:**');
+        html = html.replace(/\*\*Activities:\*\*/g, '**Activiteiten:**');
+        html = html.replace(/\*\*Result:\*\*/g, '**Resultaat:**');
+        html = html.replace(/Present/g, 'Heden');
+        html = html.replace(/October/g, 'Oktober');
+      }
+      
+      element.innerHTML = html;
+    });
+    
+    // Translate captions (dates)
+    const captions = document.querySelectorAll('.details p');
+    captions.forEach(element => {
+      let text = element.textContent;
+      if (lang === 'en') {
+        text = text.replace(/Heden/g, 'Present');
+        text = text.replace(/Oktober/g, 'October');
+        text = text.replace(/November/g, 'November');
+        text = text.replace(/December/g, 'December');
+      } else {
+        text = text.replace(/Present/g, 'Heden');
+        text = text.replace(/October/g, 'Oktober');
+      }
+      element.textContent = text;
+    });
+  }
+
   // Function to apply translations
   function applyTranslations(lang) {
     currentLang = lang;
     localStorage.setItem('preferredLanguage', lang);
+    
+    // Cache original content before first translation
+    if (lang === 'en') {
+      cacheOriginalContent();
+    }
     
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -79,6 +213,12 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
         }
       }
     });
+    
+    // Translate project content
+    translateProjects(lang);
+    
+    // Translate STAR labels (keeping for any content not in englishContent)
+    //translateSTARLabels(lang);
     
     // Handle Interests section specially
     const interestsSection = document.querySelector('#interesses');
