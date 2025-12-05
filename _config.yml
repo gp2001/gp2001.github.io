@@ -229,23 +229,51 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Albert Heijn
-        link: www.ah.nl
-        link_text: Albert Heijn
-        sub_title: Teamleider
-        caption: Januari 2017 - Maart 2019
+        title: ICT Group
+        link: www.ict.eu
+        sub_title: Software Engineer
+        caption: September 2024 - Heden
         quote: >
-          Het opdoen van Leidinggevende en sociale ervaringen.
-        description: | # this will include new lines to allow paragraphs
-            Ieder bedrijf heeft iemand nodig die orde houdt en eventueel instructies geeft om het bedrijf draaiende te houden. Dit brengt uitdagingen met zich mee om de medewerkers zo optimaal mogelijk en positief bezig te houden. Hier heb ik mijn <mark>Bedrijfshulpverlening diploma</mark> behaald.
+           Ontwikkelen van innovatieve softwareoplossingen voor diverse bedrijven en organisaties.
+        description: |
+            Als software engineer bij ICT Group ben ik betrokken bij het ontwikkelen van complexe softwareoplossingen voor verschillende soorten bedrijven en organisaties. Mijn werk omvat het ontwikkelen van softwareoplossingen voor diverse domeinen, waaronder healthcare, automotive, traffic, hightech en energie. Ik heb mijn vaardigheden in programmeertalen zoals python en C# toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn kennis aan het uitbreiden ben door trainingen in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van softwareontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige software engineer.
       - layout: left
-        title: Groot en Klein
-        # link:
-        # link_text: boringcompany.com
-        sub_title: Verhuizer
-        caption: Juli 2019 - september 2019
+        title: Unagi Sushi
+        link: www.unagisushi.nl
+        link_text: Unagi Sushi
+        sub_title: Floormanager
+        caption: September 2020 - 2023
         quote: >
-          Het opdoen van zwaarwerk ervaringen.
+          Studiekosten bijverdiensten
+        description: | # this will include new lines to allow paragraphs
+            Hier doe ik kassawerkzaamheden, stuur ik bezorgers aan, pak ik bestellingen in, help ik in de keuken en bezorg ik.
+      - layout: left
+        title: Polezait.nl
+        link: www.polezait.nl
+        sub_title: Eigenaar & Webontwikkelaar
+        caption: Januari 2022 - Heden
+        quote: >
+           Ontwerpen en ontwikkelen van op maat gemaakte websites voor diverse bedrijven en professionals.
+        description: | # this will include new lines to allow paragraphs
+           Als eigenaar en webontwikkelaar van Polezait.nl heb ik me beziggehouden met het creëren van aantrekkelijke en functionele websites voor verschillende soorten bedrijven. Mijn werk omvatte onder andere het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Ik heb mijn vaardigheden in HTML, CSS en JavaScript toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn vermogen om effectief te communiceren met klanten en hun visie om te zetten in tastbare digitale oplossingen heb versterkt. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van webontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige webontwikkelaar.
+      - layout: left
+        title: Youngones
+        link: www.youngones.com
+        # link_text: boringcompany.com
+        sub_title: Freelancer
+        caption: Juni 2020 - Heden
+        quote: >
+          Het opdoen van ervaringen bij meerdere soorten banen.
+        description: | # this will include new lines to allow paragraphs
+            Een freelancer kent veel verantwoordelijkheden, dit doe ik voor bijverdiensten en de bijbehorende ervaringen.
+      - layout: left
+        title: Covebo
+        link: www.covebo.nl
+        link_text: Covebo
+        sub_title: Algemeen medewerker
+        caption: Juni 2020 - Augustus 2020
+        quote: >
+         Zwaar vakantiebaantje
         description: | # this will include new lines to allow paragraphs
             Een bedrijf heeft medewerkers nodig die in staat zijn om zwaar werk te verrichten. Deze ervaring helpt hen om in te zien hoe dit moet gebeuren en om doorgeefvermogen te ontwikkelen.
       - layout: left
@@ -259,53 +287,25 @@ content:
         description: | # this will include new lines to allow paragraphs
            Na het behalen van mijn rijbewijs, heb ik hier mijn rijervaring verbeterd.
       - layout: left
-        title: Covebo
-        link: www.covebo.nl
-        link_text: Covebo
-        sub_title: Algemeen medewerker
-        caption: Juni 2020 - Augustus 2020
+        title: Groot en Klein
+        # link:
+        # link_text: boringcompany.com
+        sub_title: Verhuizer
+        caption: Juli 2019 - september 2019
         quote: >
-         Zwaar vakantiebaantje
+          Het opdoen van zwaarwerk ervaringen.
         description: | # this will include new lines to allow paragraphs
             Een bedrijf heeft medewerkers nodig die in staat zijn om zwaar werk te verrichten. Deze ervaring helpt hen om in te zien hoe dit moet gebeuren en om doorgeefvermogen te ontwikkelen.
       - layout: left
-        title: Unagi Sushi
-        link: www.unagisushi.nl
-        link_text: Unagi Sushi
-        sub_title: Floormanager
-        caption: September 2020 - 2023
+        title: Albert Heijn
+        link: www.ah.nl
+        link_text: Albert Heijn
+        sub_title: Teamleider
+        caption: Januari 2017 - Maart 2019
         quote: >
-          Studiekosten bijverdiensten
+          Het opdoen van Leidinggevende en sociale ervaringen.
         description: | # this will include new lines to allow paragraphs
-            Hier doe ik kassawerkzaamheden, stuur ik bezorgers aan, pak ik bestellingen in, help ik in de keuken en bezorg ik.
-      - layout: left
-        title: Youngones
-        link: www.youngones.com
-        # link_text: boringcompany.com
-        sub_title: Freelancer
-        caption: Juni 2020 - Heden
-        quote: >
-          Het opdoen van ervaringen bij meerdere soorten banen.
-        description: | # this will include new lines to allow paragraphs
-            Een freelancer kent veel verantwoordelijkheden, dit doe ik voor bijverdiensten en de bijbehorende ervaringen.
-      - layout: left
-        title: Polezait.nl
-        link: www.polezait.nl
-        sub_title: Eigenaar & Webontwikkelaar
-        caption: Januari 2022 - Heden
-        quote: >
-           Ontwerpen en ontwikkelen van op maat gemaakte websites voor diverse bedrijven en professionals.
-        description: | # this will include new lines to allow paragraphs
-           Als eigenaar en webontwikkelaar van Polezait.nl heb ik me beziggehouden met het creëren van aantrekkelijke en functionele websites voor verschillende soorten bedrijven. Mijn werk omvatte onder andere het ontwikkelen van websites voor restaurants, kappers, makelaars, zonnepanelenbedrijven en zzp'ers die behoefte hebben aan geautomatiseerde facturatie-oplossingen. Ik heb mijn vaardigheden in HTML, CSS en JavaScript toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn vermogen om effectief te communiceren met klanten en hun visie om te zetten in tastbare digitale oplossingen heb versterkt. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van webontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige webontwikkelaar.
-      - layout: left
-        title: ICT Group
-        link: www.ict.eu
-        sub_title: Software Engineer
-        caption: September 2024 - Heden
-        quote: >
-           Ontwikkelen van innovatieve softwareoplossingen voor diverse bedrijven en organisaties.
-        description: |
-            Als software engineer bij ICT Group ben ik betrokken bij het ontwikkelen van complexe softwareoplossingen voor verschillende soorten bedrijven en organisaties. Mijn werk omvat het ontwikkelen van softwareoplossingen voor diverse domeinen, waaronder healthcare, automotive, traffic, hightech en energie. Ik heb mijn vaardigheden in programmeertalen zoals python en C# toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn kennis aan het uitbreiden ben door trainingen in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van softwareontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige software engineer.
+            Ieder bedrijf heeft iemand nodig die orde houdt en eventueel instructies geeft om het bedrijf draaiende te houden. Dit brengt uitdagingen met zich mee om de medewerkers zo optimaal mogelijk en positief bezig te houden. Hier heb ik mijn <mark>Bedrijfshulpverlening diploma</mark> behaald.
       - layout: left
         title: Vrijwilligerswerk
         # link: www.ah.nl
