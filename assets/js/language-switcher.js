@@ -45,6 +45,7 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
       "werk-ervaringen_title": "Work Experience",
       educatie_title: "Education",
       certificaten_title: "Certificates",
+      publicaties_title: "Publications",
       interesses_title: "Interests",
       
       // Job title
@@ -115,7 +116,7 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
     contentCached = true;
   }
 
-  // Function to translate all list content (projects, work experience, education, certificates)
+  // Function to translate all list content (projects, work experience, education, certificates, publications)
   function translateProjects(lang) {
     // Get all section containers
     const sections = document.querySelectorAll('.list-container');
@@ -135,6 +136,8 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
           translationArray = window.englishContent.education;
         } else if (sectionId === 'certificaten' || sectionId === 'certificates') {
           translationArray = window.englishContent.certificates;
+        } else if (sectionId === 'publicaties' || sectionId === 'publications') {
+          translationArray = window.englishContent.publications;
         }
       }
       

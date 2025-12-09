@@ -394,6 +394,29 @@ content:
         description: | # this will include new lines to allow paragraphs
           In deze training heb ik kennis gemaakt met de basisprincipes van Rust en geleerd hoe ik veilige en efficiënte software kan ontwikkelen met deze taal. Ik heb ervaring opgedaan met het schrijven van code in Rust, het compileren van programma's en het gebruik van de Rust-toolchain. Deze training heeft mijn kennis en vaardigheden in Rust versterkt en mij in staat gesteld om complexe softwareoplossingen te ontwikkelen met deze taal.
 
+  - title: Publicaties
+    layout: list
+    content:
+      - layout: left
+        title: "Reducing Manual Testing Overhead through AI-assisted Report Automation"
+        caption: 2025
+        sub_title: ICT Group, Center of Excellence, Eindhoven
+        quote: >
+          Research paper over het automatiseren van test rapportage met LLMs, RAG en computer vision.
+        description: | # this will include new lines to allow paragraphs
+          Co-auteur van onderzoekspaper gepubliceerd over TestPal, een AI-geassisteerde applicatie voor het automatiseren van test rapport generatie. Het systeem combineert <mark>Large Language Models</mark>, <mark>Retrieval-Augmented Generation (RAG)</mark>, en <mark>computer vision technieken</mark> om screen recordings te analyseren en geautomatiseerd test rapporten te genereren met visueel bewijs.
+          
+          **Belangrijkste bijdragen:**
+          - Ontwikkeling van een multi-stage pipeline die VLMs (GPT-4 Vision), LLMs (GPT-4), en FAISS vector search integreert
+          - Implementatie van SSIM-based frame filtering voor efficiënte video processing (10:1 tot 50:1 compressie)
+          - RAG-based storage systeem voor semantische retrieval van gebruikersacties uit test executions
+          - Experimentele validatie met 79% accuracy in geautomatiseerde test outcome bepaling
+          - Significante reductie in handmatige inspanning voor test rapportage
+          
+          **Technische stack:** Python, Azure OpenAI (GPT-4 Vision, GPT-4, text-embedding-ada-002), FAISS, OpenCV, gRPC, Protocol Buffers
+          
+          **Auteurs:** Tunahan Catak, Enkhzol Dovdon, Luiz Schiller, Gabriel Shamon, Frank Van Der Kruijssen
+
   - title: Interesses
     layout: text
     content: | # this will include new lines to allow paragraphs

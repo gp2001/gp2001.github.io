@@ -283,5 +283,14 @@ Technical stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mar
       quote: 'Rust is a systems language designed to create safe and efficient software.',
       description: 'In this training, I became familiar with the basic principles of Rust and learned how to develop safe and efficient software with this language. I gained experience writing code in Rust, compiling programs, and using the Rust toolchain. This training has strengthened my knowledge and skills in Rust and enabled me to develop complex software solutions with this language.'
     }
+  ],
+  publications: [
+    {
+      title: 'Reducing Manual Testing Overhead through AI-assisted Report Automation',
+      caption: '2025',
+      sub_title: 'ICT Group, Center of Excellence, Eindhoven',
+      quote: 'Research paper on automating test reporting using LLMs, RAG, and computer vision.',
+      description: 'Co-author of research paper published on TestPal, an AI-assisted application for automating test report generation. The system combines <mark>Large Language Models</mark>, <mark>Retrieval-Augmented Generation (RAG)</mark>, and <mark>computer vision techniques</mark> to analyze screen recordings and automatically generate test reports with visual evidence.\n\n**Key contributions:**\n- Development of a multi-stage pipeline integrating VLMs (GPT-4 Vision), LLMs (GPT-4), and FAISS vector search\n- Implementation of SSIM-based frame filtering for efficient video processing (10:1 to 50:1 compression)\n- RAG-based storage system for semantic retrieval of user actions from test executions\n- Experimental validation achieving 79% accuracy in automated test outcome determination\n- Significant reduction in manual effort for test reporting\n\n**Technical stack:** Python, Azure OpenAI (GPT-4 Vision, GPT-4, text-embedding-ada-002), FAISS, OpenCV, gRPC, Protocol Buffers\n\n**Authors:** Tunahan Catak, Enkhzol Dovdon, Luiz Schiller, Gabriel Shamon, Frank Van Der Kruijssen'
+    }
   ]
 };
