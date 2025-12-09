@@ -361,6 +361,8 @@ content:
     content:
       - layout: left
         title: Doing Projects Within Healthcare - ISO 13485 / IEC 62304 / ISO 14971
+        link: assets/Gabriel.pdf
+        link_text: Certificate
         caption: 2024~
         quote: >
           Kennis van healthcare compliance standaarden voor medische apparatuur en software ontwikkeling.
@@ -399,6 +401,8 @@ content:
     content:
       - layout: left
         title: "Reducing Manual Testing Overhead through AI-assisted Report Automation"
+        link: assets/DevBuddy.pdf
+        link_text: Paper PDF
         caption: 2025
         sub_title: ICT Group, Center of Excellence, Eindhoven
         quote: >

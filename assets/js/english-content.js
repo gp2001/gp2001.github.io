@@ -261,6 +261,8 @@ Technical stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mar
   certificates: [
     {
       title: 'Doing Projects Within Healthcare - ISO 13485 / IEC 62304 / ISO 14971',
+      link: 'assets/Gabriel.pdf',
+      link_text: 'Certificate',
       caption: '2024~',
       quote: 'Knowledge of healthcare compliance standards for medical devices and software development.',
       description: 'Professional knowledge of <mark>ISO 13485</mark> (quality management systems for medical devices), <mark>IEC 62304</mark> (software lifecycle processes for medical devices), and <mark>ISO 14971</mark> (risk management for medical devices). Experience with implementation of compliance controls, documentation requirements, and risk analysis in healthcare environments. Familiar with <mark>GDPR</mark>, <mark>HIPAA</mark>, and sector-specific safety requirements for medical AI systems.'
@@ -287,6 +289,8 @@ Technical stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mar
   publications: [
     {
       title: 'Reducing Manual Testing Overhead through AI-assisted Report Automation',
+      link: 'assets/DevBuddy.pdf',
+      link_text: 'Paper PDF',
       caption: '2025',
       sub_title: 'ICT Group, Center of Excellence, Eindhoven',
       quote: 'Research paper on automating test reporting using LLMs, RAG, and computer vision.',
