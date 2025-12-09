@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Gabriël Shamon
-title: Software Engineer at ICT Group, MSc Applied Data Science, BSc Computer Science
+title: AI Consultant & Engineer at ICT Group, MSc Applied Data Science, BSc Computer Science
 email: gabrielshamon1@hotmail.nl
 website: https://gp2001.github.io
 
@@ -49,11 +49,11 @@ additional_links:
 about_title: Over mij
 about_profile_image: images/ik.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hallo, mijn naam is Gabriël en ik werk bij ICT Nederland. In mijn huidige rol zoek ik verbanden in data en richt ik me op AI. Ik heb tijdens mijn Bachelor en Master ervaring opgedaan met software, optimalisatie, data en AI.
+  Hallo, mijn naam is Gabriël en ik werk als AI Consultant & Engineer bij ICT Nederland. In mijn huidige rol analyseer ik klant use-cases, voer ik technische haalbaarheidsanalyses uit, en geef ik strategisch advies over AI-oplossingsarchitectuur en tool-selectie. Ik begeleid klanten bij AI-implementaties met focus op security compliance, on-premises deployment, en make-or-buy beslissingen.
 
-  Mijn meeste ervaring is in <mark>C#</mark>, maar ik kan ook <mark>Python</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>HTML</mark>, <mark>SQL</mark> en <mark>R</mark>. Momenteel ben ik bezig met trainingen voor <mark>AI</mark> en <mark>Azure Data Scientist</mark>.
+  Mijn expertise omvat <mark>GenAI systemen</mark>, <mark>RAG architectures</mark>, <mark>LLM customization</mark>, <mark>multi-agent orchestration</mark>, en <mark>vector databases</mark>. Ik werk met <mark>Python</mark>, <mark>C#</mark>, <mark>Docker/Kubernetes</mark>, en beheers healthcare compliance frameworks zoals <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark> en data security protocols.
 
-  Ik spreek ook <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.
+  Technisch stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mark>ColPali</mark>, <mark>quantization techniques</mark>, <mark>Azure</mark>, <mark>Terraform</mark>, en <mark>CI/CD pipelines</mark>. Ik spreek <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.
 
 content:
   - title: Projecten # Title for the section
@@ -74,8 +74,10 @@ content:
           - Analyseerde de huidige data-analyseprocessen en identificeerde knelpunten
           - Ontwikkelde een <mark>vectordatabase</mark> in de vorm van een grafiek om de data efficiënt te organiseren en te doorzoeken
           - Implementeerde een <mark>GraphQL</mark> interface om de juiste informatie uit de vectordatabase te extraheren
-          - Ontwikkelde een <mark>AI-model</mark> om ongestructureerde data, zoals klinische notities en foto's, te analyseren en waardevolle inzichten te verkrijgen
+          - Ontwikkelde een <mark>multi-agent workflow</mark> met gespecialiseerde agents voor data-extractie, validatie, en analyse
           - Bouwde een <mark>RAG-systeem</mark> zonder het gebruik van LangChain, volgens de specifieke vereisten van MGH
+          - Waarborg compliance met <mark>healthcare data security standards</mark> en implementeerde toegangscontroles volgens HIPAA-protocollen
+          - Zorgde voor <mark>on-premises deployment</mark> om patiëntgegevens binnen de ziekenhuisinfrastructuur te houden
 
           **Resultaat:** De AI-oplossing stelde MGH in staat om binnen enkele minuten patiëntengroepen te identificeren die vergelijkbare behandelingen hadden ondergaan en soortgelijke complicaties hadden ervaren. Dit verkortte het proces van cohortstudies van 9 maanden naar enkele minuten, waardoor artsen sneller evidence-based beslissingen konden nemen en de patiëntenzorg significant verbeterd werd.
 
@@ -91,11 +93,12 @@ content:
           **Taak:** Mijn taak was om een RAG-systeem te implementeren dat de efficiëntie van de ICT-medewerkers zou verhogen door hen in staat te stellen snel informatie te verkrijgen van hun omgeving. Dit systeem moest geïntegreerd worden in de bestaande infrastructuur en voldoen aan de strenge veiligheidsnormen van ASML.
 
           **Activiteiten:**
-          - Analyse van de huidige documentatieprocessen en identificatie van knelpunten
-          - Ontwikkeling van een <mark>RAG-systeem</mark> dat de status van processen en projecten visueel weergeeft
-          - Integratie van het RAG-systeem met de bestaande infrastructuur van ASML (Zowel met <mark>image embeddings</mark> en <mark>ColPali</mark> als <mark>text embeddings</mark> met o.a. <mark>OCR</mark>)
-          - Implementatie van een <mark>lokaal draaiende LLM</mark> om de veiligheid van gevoelige gegevens te waarborgen (<mark>Quantization</mark>, <mark>offloading</mark>)
-          - Testen en valideren van het systeem in de CIDT-omgeving
+          - Voerde <mark>technische evaluatie</mark> uit van 3 commerciële RAG-oplossingen vs. custom development, adviseerde in-house oplossing op basis van security requirements en TCO-analyse
+          - Ontwikkelde een <mark>RAG-systeem</mark> dat de status van processen en projecten visueel weergeeft
+          - Integreerde het RAG-systeem met de bestaande infrastructuur van ASML (Zowel met <mark>image embeddings</mark> en <mark>ColPali</mark> als <mark>text embeddings</mark> met o.a. <mark>OCR</mark>)
+          - Implementeerde een <mark>lokaal draaiende LLM</mark> met strikte compliance aan industrial security protocols (<mark>Quantization</mark>, <mark>offloading</mark>)
+          - Zette <mark>CI/CD pipeline</mark> op voor ML model deployment en beheerde containerized AI services met <mark>Docker/Kubernetes</mark>
+          - Waarborg naleving van ASML's data security frameworks en industrial compliance standaarden
 
           **Resultaat:** Het geïmplementeerde RAG-systeem heeft de efficiëntie van de ICT-medewerkers aanzienlijk verhoogd door hen in staat te stellen snel en gemakkelijk de status van verschillende processen en projecten te zien. De lokale implementatie van de LLM heeft ervoor gezorgd dat gevoelige gegevens veilig blijven, wat voldoet aan de strenge veiligheidsnormen van ASML.
 
@@ -150,9 +153,10 @@ content:
 
           **Activiteiten:**
           - Ontwikkelde <mark>prompts</mark> voor het omzetten van ongestructureerde data naar gestructureerd formaat
-          - Paste <mark>prompt engineering</mark> technieken toe om de kwaliteit van de data-conversie te optimaliseren
-          - Trainee en fine-tunede LLMs om specifieke taken uit te voeren in de data-omzetting
-          - Implementeerde validatiechecks zoals <mark>halucination score</mark> en <mark>token similariteitsanalyses</mark> om de kwaliteit te waarborgen
+          - Paste <mark>LLM customization technieken</mark> toe inclusief <mark>Supervised Fine-Tuning (SFT)</mark> en <mark>prompt engineering</mark> voor hypotheek domein-adaptatie
+          - Implementeerde <mark>RLHF (Reinforcement Learning from Human Feedback)</mark> workflows om modeloutput te optimaliseren
+          - Ontwikkelde validatiechecks zoals <mark>halucination score</mark> en <mark>token similariteitsanalyses</mark> om de kwaliteit te waarborgen
+          - Zette <mark>LLMOps pipeline</mark> op met geautomatiseerde model evaluatie en deployment monitoring
           - Optimaliseerde de prestaties van de LLMs en verbeterde de nauwkeurigheid van de resultaten iteratief
 
           **Resultaat:** Ik produceerde een hoogwaardige ORPO dataset die gebruikt werd voor het fine-tunen van een LLM specifiek voor hypotheekadvies. De validatiechecks toonden aan dat de gegenereerde data van hoge kwaliteit was met minimale hallucinaties. Dit stelde Stater in staat om een gespecialiseerd AI-model te implementeren dat klanten kon ondersteunen bij hypotheekvragen.
@@ -231,12 +235,19 @@ content:
       - layout: left
         title: ICT Group
         link: www.ict.eu
-        sub_title: Software Engineer
+        sub_title: AI Consultant & Engineer
         caption: September 2024 - Heden
         quote: >
-           Ontwikkelen van innovatieve softwareoplossingen voor diverse bedrijven en organisaties.
+           Strategisch AI-advies en engineering voor healthcare, automotive, traffic, hightech en energie domeinen.
         description: |
-            Als software engineer bij ICT Group ben ik betrokken bij het ontwikkelen van complexe softwareoplossingen voor verschillende soorten bedrijven en organisaties. Mijn werk omvat het ontwikkelen van softwareoplossingen voor diverse domeinen, waaronder healthcare, automotive, traffic, hightech en energie. Ik heb mijn vaardigheden in programmeertalen zoals python en C# toegepast en verbeterd om aan de specifieke behoeften van elke klant te voldoen, terwijl ik tegelijkertijd mijn kennis aan het uitbreiden ben door trainingen in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. Dit werk heeft mij waardevolle ervaring opgeleverd in zowel technische als zakelijke aspecten van softwareontwikkeling, waardoor ik mijzelf blijf ontwikkelen als een competente en veelzijdige software engineer.
+            Als AI Consultant & Engineer bij ICT Group lever ik strategische AI-consulting en engineering services voor diverse sectoren. Mijn verantwoordelijkheden omvatten use-case analyse, technische haalbaarheidsbeoordelingen, oplossingsarchitectuur ontwerp, en full-stack implementatie van GenAI systemen met focus op security compliance en on-premises deployment.
+            
+            - Implementeer <mark>CI/CD pipelines</mark> voor ML model deployment en beheer containerized AI services met <mark>Docker/Kubernetes</mark>
+            - Onderhoud <mark>infrastructure-as-code</mark> met <mark>Terraform</mark> voor reproduceerbare AI-omgevingen
+            - Pas <mark>LLMOps</mark> best practices toe voor model versioning, monitoring, en geautomatiseerde evaluatie
+            - Waarborg compliance met <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark>, <mark>GDPR</mark>, en sector-specifieke data security protocols
+            - Gebruik <mark>Jira</mark>, <mark>Confluence</mark>, en <mark>GitLab</mark> voor agile projectmanagement en requirements tracking
+            - Volg trainingen in <mark>Rust</mark>, <mark>Embedded software</mark>, <mark>Agile Scrum Foundation</mark>, <mark>Azure</mark>, <mark>Power BI</mark>
       - layout: left
         title: Unagi Sushi
         link: www.unagisushi.nl
@@ -348,6 +359,13 @@ content:
   - title: Certificaten
     layout: list
     content:
+      - layout: left
+        title: Doing Projects Within Healthcare - ISO 13485 / IEC 62304 / ISO 14971
+        caption: 2024~
+        quote: >
+          Kennis van healthcare compliance standaarden voor medische apparatuur en software ontwikkeling.
+        description: | # this will include new lines to allow paragraphs
+          Professionele kennis van <mark>ISO 13485</mark> (kwaliteitsmanagementsystemen voor medische apparatuur), <mark>IEC 62304</mark> (software lifecycle processen voor medische apparatuur), en <mark>ISO 14971</mark> (risicomanagement voor medische apparatuur). Ervaring met implementatie van compliance controls, documentatie requirements, en risicoanalyse in healthcare omgevingen. Bekend met <mark>GDPR</mark>, <mark>HIPAA</mark>, en sector-specifieke veiligheidsvereisten voor medische AI-systemen.
       - layout: left
         title: Microsoft Certified Azure AI Fundamentals
         link: assets/microsoft_AI.pdf

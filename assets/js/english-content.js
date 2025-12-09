@@ -1,10 +1,10 @@
 // English content for the resume
 window.englishContent = {
-  about_content: `Hello, my name is Gabriël and I work at ICT Nederland. In my current role, I identify patterns in data and focus on AI. I gained experience with software, optimization, data, and AI during my Bachelor's and Master's degrees.
+  about_content: `Hello, my name is Gabriël and I work as an AI Consultant & Engineer at ICT Nederland. In my current role, I analyze client use-cases, conduct technical feasibility assessments, and provide strategic guidance on AI solution architecture and tool selection. I guide clients in AI implementations with a focus on security compliance, on-premises deployment, and make-or-buy decisions.
 
-I have the most experience in <mark>C#</mark>, but I can also work with <mark>Python</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>HTML</mark>, <mark>SQL</mark>, and <mark>R</mark>. Currently, I am completing training in <mark>AI</mark> and <mark>Azure Data Scientist</mark>.
+My expertise includes <mark>GenAI systems</mark>, <mark>RAG architectures</mark>, <mark>LLM customization</mark>, <mark>multi-agent orchestration</mark>, and <mark>vector databases</mark>. I work with <mark>Python</mark>, <mark>C#</mark>, <mark>Docker/Kubernetes</mark>, and master healthcare compliance frameworks such as <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark> and data security protocols.
 
-I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, and <mark>German</mark>.`,
+Technical stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mark>ColPali</mark>, <mark>quantization techniques</mark>, <mark>Azure</mark>, <mark>Terraform</mark>, and <mark>CI/CD pipelines</mark>. I speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, and <mark>German</mark>.`,
 
   projects: [
     {
@@ -21,8 +21,10 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
 - Analyzed current data analysis processes and identified bottlenecks
 - Developed a <mark>vector database</mark> in the form of a graph to efficiently organize and search the data
 - Implemented a <mark>GraphQL</mark> interface to extract the right information from the vector database
-- Developed an <mark>AI model</mark> to analyze unstructured data, such as clinical notes and photos, and gain valuable insights
+- Developed a <mark>multi-agent workflow</mark> with specialized agents for data extraction, validation, and analysis
 - Built a <mark>RAG system</mark> without using LangChain, according to MGH's specific requirements
+- Ensured compliance with <mark>healthcare data security standards</mark> and implemented access controls according to HIPAA protocols
+- Ensured <mark>on-premises deployment</mark> to keep patient data within hospital infrastructure
 
 **Result:** The AI solution enabled MGH to identify patient groups who had undergone similar treatments and experienced similar complications within minutes. This shortened the cohort study process from 9 months to just a few minutes, allowing doctors to make evidence-based decisions faster and significantly improving patient care.`
     },
@@ -37,11 +39,12 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
 **Task:** My task was to implement a RAG system that would increase the efficiency of ICT employees by enabling them to quickly retrieve information from their environment. This system had to be integrated into the existing infrastructure and comply with ASML's strict security standards.
 
 **Activities:**
-- Analyzed current documentation processes and identified bottlenecks
+- Conducted <mark>technical evaluation</mark> of 3 commercial RAG solutions vs. custom development, recommended in-house solution based on security requirements and TCO analysis
 - Developed a <mark>RAG system</mark> that visually displays the status of processes and projects
 - Integrated the RAG system with ASML's existing infrastructure (both with <mark>image embeddings</mark> and <mark>ColPali</mark> as well as <mark>text embeddings</mark> with <mark>OCR</mark>)
-- Implemented a <mark>locally running LLM</mark> to ensure the security of sensitive data (<mark>Quantization</mark>, <mark>offloading</mark>)
-- Tested and validated the system in the CIDT environment
+- Implemented a <mark>locally running LLM</mark> with strict compliance to industrial security protocols (<mark>Quantization</mark>, <mark>offloading</mark>)
+- Set up <mark>CI/CD pipeline</mark> for ML model deployment and managed containerized AI services with <mark>Docker/Kubernetes</mark>
+- Ensured compliance with ASML's data security frameworks and industrial compliance standards
 
 **Result:** The implemented RAG system significantly increased the efficiency of ICT employees by enabling them to quickly and easily see the status of various processes and projects. The local implementation of the LLM ensured that sensitive data remains secure, meeting ASML's strict security standards.`
     },
@@ -91,9 +94,10 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
 
 **Activities:**
 - Developed <mark>prompts</mark> for converting unstructured data into structured format
-- Applied <mark>prompt engineering</mark> techniques to optimize the quality of data conversion
-- Trained and fine-tuned LLMs to perform specific tasks in data conversion
-- Implemented validation checks such as <mark>hallucination score</mark> and <mark>token similarity analyses</mark> to ensure quality
+- Applied <mark>LLM customization techniques</mark> including <mark>Supervised Fine-Tuning (SFT)</mark> and <mark>prompt engineering</mark> for mortgage domain adaptation
+- Implemented <mark>RLHF (Reinforcement Learning from Human Feedback)</mark> workflows to optimize model output
+- Developed validation checks such as <mark>hallucination score</mark> and <mark>token similarity analyses</mark> to ensure quality
+- Set up <mark>LLMOps pipeline</mark> with automated model evaluation and deployment monitoring
 - Iteratively optimized LLM performance and improved result accuracy
 
 **Result:** I produced a high-quality ORPO dataset that was used for fine-tuning an LLM specifically for mortgage advice. The validation checks showed that the generated data was of high quality with minimal hallucinations. This enabled Stater to implement a specialized AI model that could support customers with mortgage questions.`
@@ -216,10 +220,10 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
     },
     {
       title: 'ICT Group',
-      sub_title: 'Software Engineer',
+      sub_title: 'AI Consultant & Engineer',
       caption: 'September 2024 - Present',
-      quote: 'Developing innovative software solutions for various companies and organizations.',
-      description: 'As a software engineer at ICT Group, I am involved in developing complex software solutions for different types of companies and organizations. My work includes developing software solutions for various domains, including healthcare, automotive, traffic, hightech, and energy. I have applied and improved my skills in programming languages such as Python and C# to meet the specific needs of each client, while simultaneously expanding my knowledge through training in Rust, intro to Embedded software, Agile Scrum Foundation, Azure, Power BI. This work has provided me with valuable experience in both technical and business aspects of software development, allowing me to continue developing as a competent and versatile software engineer.'
+      quote: 'Strategic AI consulting and engineering for healthcare, automotive, traffic, hightech, and energy domains.',
+      description: 'As an AI Consultant & Engineer at ICT Group, I provide strategic AI consulting and engineering services across diverse sectors. My responsibilities include use-case analysis, technical feasibility assessments, solution architecture design, and full-stack implementation of GenAI systems with emphasis on security compliance and on-premises deployment.\n\n- Implement <mark>CI/CD pipelines</mark> for ML model deployment and manage containerized AI services with <mark>Docker/Kubernetes</mark>\n- Maintain <mark>infrastructure-as-code</mark> with <mark>Terraform</mark> for reproducible AI environments\n- Apply <mark>LLMOps</mark> best practices for model versioning, monitoring, and automated evaluation\n- Ensure compliance with <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark>, <mark>GDPR</mark>, and sector-specific data security protocols\n- Use <mark>Jira</mark>, <mark>Confluence</mark>, and <mark>GitLab</mark> for agile project management and requirements tracking\n- Complete training in <mark>Rust</mark>, <mark>Embedded software</mark>, <mark>Agile Scrum Foundation</mark>, <mark>Azure</mark>, <mark>Power BI</mark>'
     },
     {
       title: 'Volunteer Work',
@@ -255,6 +259,12 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
   ],
 
   certificates: [
+    {
+      title: 'Doing Projects Within Healthcare - ISO 13485 / IEC 62304 / ISO 14971',
+      caption: '2024~',
+      quote: 'Knowledge of healthcare compliance standards for medical devices and software development.',
+      description: 'Professional knowledge of <mark>ISO 13485</mark> (quality management systems for medical devices), <mark>IEC 62304</mark> (software lifecycle processes for medical devices), and <mark>ISO 14971</mark> (risk management for medical devices). Experience with implementation of compliance controls, documentation requirements, and risk analysis in healthcare environments. Familiar with <mark>GDPR</mark>, <mark>HIPAA</mark>, and sector-specific safety requirements for medical AI systems.'
+    },
     {
       title: 'Microsoft Certified Azure AI Fundamentals',
       caption: '2024~',
