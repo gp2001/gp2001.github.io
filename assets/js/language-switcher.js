@@ -21,7 +21,7 @@ Ik werk voornamelijk met <mark>Python</mark>, <mark>TensorFlow</mark>, <mark>PyT
       interesses_title: "Interesses",
       
       // Job title
-      job_title: "Data Scientist/ Software Engineer/ AI Engineer/ AI Consultant",
+      job_title: "AI Consultant & Data Scientist, MSc Applied Data Science, BSc Computer Science",
       
       // Interests
       interests_content: `- Voetbal: ik speel regelmatig in mijn vrije tijd en vind het leuk om naar wedstrijden te kijken.
@@ -49,7 +49,7 @@ I work primarily with <mark>Python</mark>, <mark>TensorFlow</mark>, <mark>PyTorc
       interesses_title: "Interests",
       
       // Job title
-      job_title: "Data Scientist/ Software Engineer/ AI Engineer/ AI Consultant",
+      job_title: "AI Consultant & Data Scientist, MSc Applied Data Science, BSc Computer Science",
       
       // Interests
       interests_content: `- Football: I play regularly in my free time and enjoy watching matches.
