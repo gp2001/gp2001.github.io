@@ -11,7 +11,7 @@
 
 Mijn expertise omvat het volledige AI-spectrum: <mark>Large Language Models (LLMs)</mark>, <mark>computer vision</mark>, <mark>machine learning</mark>, <mark>deep learning</mark>, en <mark>klassieke algoritmen</mark>. Ik begeleid klanten bij het implementeren van <mark>GenAI systemen</mark>, <mark>RAG architectures</mark>, <mark>multi-agent orchestration</mark>, en <mark>vector databases</mark>. Daarnaast werk ik met <mark>CNNs</mark>, <mark>RNNs</mark>, <mark>transformer architectures</mark>, en optimalisatie-algoritmen. Mijn sterke wiskundige en algoritmische achtergrond stelt mij in staat om complexe AI-oplossingen te ontwerpen en te implementeren.
 
-Ik werk voornamelijk met <mark>Python</mark>, <mark>TensorFlow</mark>, <mark>PyTorch</mark>, en heb ervaring met <mark>C#</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>SQL</mark>, en <mark>R</mark>. Ik beheers <mark>Docker</mark>, <mark>Azure</mark>, en healthcare compliance frameworks (<mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark>). Ik spreek <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.`,,
+Ik werk voornamelijk met <mark>Python</mark>, <mark>TensorFlow</mark>, <mark>PyTorch</mark>, en heb ervaring met <mark>C#</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>SQL</mark>, en <mark>R</mark>. Ik beheers <mark>Docker</mark>, <mark>Azure</mark>, en healthcare compliance frameworks (<mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark>). Ik spreek <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.`,
       
       // Section titles
       projecten_title: "Projecten",
