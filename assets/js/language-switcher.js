@@ -7,11 +7,11 @@
     nl: {
       // About section
       about_title: "Over mij",
-      about_content: `Hallo, mijn naam is Gabriël en ik werk bij ICT Nederland. In mijn huidige rol zoek ik verbanden in data en richt ik me op AI. Ik heb tijdens mijn Bachelor en Master ervaring opgedaan met software, optimalisatie, data en AI.
+      about_content: `Hallo, mijn naam is Gabriël en ik werk als AI Consultant & Engineer bij ICT Nederland. In mijn huidige rol analyseer ik klant use-cases, voer ik technische haalbaarheidsanalyses uit, en geef ik strategisch advies over AI-oplossingsarchitectuur en tool-selectie. Ik begeleid klanten bij AI-implementaties met focus op security compliance, on-premises deployment, en make-or-buy beslissingen.
 
-Mijn meeste ervaring is in <mark>C#</mark>, maar ik kan ook <mark>Python</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>HTML</mark>, <mark>SQL</mark> en <mark>R</mark>. Momenteel ben ik bezig met trainingen voor <mark>AI</mark> en <mark>Azure Data Scientist</mark>.
+Mijn expertise omvat <mark>GenAI systemen</mark>, <mark>RAG architectures</mark>, <mark>LLM customization</mark>, <mark>multi-agent orchestration</mark>, en <mark>vector databases</mark>. Ik werk voornamelijk met <mark>Python</mark>, en heb ervaring met <mark>C#</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>HTML/CSS</mark>, <mark>SQL</mark>, en <mark>R</mark>. Ik beheers <mark>Docker/Kubernetes</mark> en healthcare compliance frameworks zoals <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark> en data security protocols. Ik heb certificeringen behaald in <mark>Azure AI Fundamentals</mark> en <mark>Azure Data Fundamentals</mark>.
 
-Ik spreek ook <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.`,
+Technisch stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mark>ColPali</mark>, <mark>quantization techniques</mark>, <mark>Azure</mark>, <mark>Terraform</mark>, en <mark>CI/CD pipelines</mark>. Ik spreek <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</mark> en <mark>Duits</mark>.`,
       
       // Section titles
       projecten_title: "Projecten",
@@ -21,7 +21,7 @@ Ik spreek ook <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</ma
       interesses_title: "Interesses",
       
       // Job title
-      job_title: "Software Engineer bij ICT Group, MSc Applied Data Science, BSc Computer Science",
+      job_title: "Data Scientist/ Software Engineer/ AI Engineer/ AI Consultant",
       
       // Interests
       interests_content: `- Voetbal: ik speel regelmatig in mijn vrije tijd en vind het leuk om naar wedstrijden te kijken.
@@ -34,11 +34,11 @@ Ik spreek ook <mark>Nederlands</mark>, <mark>Engels</mark>, <mark>Chaldeeuws</ma
     en: {
       // About section
       about_title: "About Me",
-      about_content: `Hello, my name is Gabriël and I work at ICT Nederland. In my current role, I identify patterns in data and focus on AI. I gained experience with software, optimization, data, and AI during my Bachelor's and Master's degrees.
+      about_content: `Hello, my name is Gabriël and I work as an AI Consultant & Engineer at ICT Nederland. In my current role, I analyze client use cases, conduct technical feasibility assessments, and provide strategic advice on AI solution architecture and tool selection. I guide clients through AI implementations with a focus on security compliance, on-premises deployment, and make-or-buy decisions.
 
-I have the most experience in <mark>C#</mark>, but I can also work with <mark>Python</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>HTML</mark>, <mark>SQL</mark>, and <mark>R</mark>. Currently, I am completing training in <mark>AI</mark> and <mark>Azure Data Scientist</mark>.
+My expertise includes <mark>GenAI systems</mark>, <mark>RAG architectures</mark>, <mark>LLM customization</mark>, <mark>multi-agent orchestration</mark>, and <mark>vector databases</mark>. I work primarily with <mark>Python</mark>, and have experience with <mark>C#</mark>, <mark>Haskell</mark>, <mark>JavaScript</mark>, <mark>HTML/CSS</mark>, <mark>SQL</mark>, and <mark>R</mark>. I'm proficient in <mark>Docker/Kubernetes</mark> and healthcare compliance frameworks such as <mark>ISO 13485</mark>, <mark>IEC 62304</mark>, <mark>ISO 14971</mark> and data security protocols. I hold certifications in <mark>Azure AI Fundamentals</mark> and <mark>Azure Data Fundamentals</mark>.
 
-I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, and <mark>German</mark>.`,
+Technical stack: <mark>LangChain alternatives</mark>, <mark>GraphQL</mark>, <mark>ColPali</mark>, <mark>quantization techniques</mark>, <mark>Azure</mark>, <mark>Terraform</mark>, and <mark>CI/CD pipelines</mark>. I speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, and <mark>German</mark>.`,
       
       // Section titles
       projecten_title: "Projects",
@@ -49,7 +49,7 @@ I also speak <mark>Dutch</mark>, <mark>English</mark>, <mark>Chaldean</mark>, an
       interesses_title: "Interests",
       
       // Job title
-      job_title: "Software Engineer at ICT Group, MSc Applied Data Science, BSc Computer Science",
+      job_title: "Data Scientist/ Software Engineer/ AI Engineer/ AI Consultant",
       
       // Interests
       interests_content: `- Football: I play regularly in my free time and enjoy watching matches.

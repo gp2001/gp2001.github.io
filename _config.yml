@@ -387,14 +387,51 @@ content:
         description: | # this will include new lines to allow paragraphs
           In deze training heb ik kennis gemaakt met de basisprincipes van Azure Data Services en geleerd hoe ik gegevens kan beheren en analyseren met behulp van Azure. Ik heb ervaring opgedaan met het werken met Azure Data Services, het opzetten van gegevensopslag en het uitvoeren van gegevensanalyse in Azure. Deze certificering heeft mijn kennis en vaardigheden in Azure versterkt en mij in staat gesteld om effectief te werken met Azure Data Services.
       - layout: left
-        title: Explore rust
-        link: \assets\Certificate of Training - Gabriel Shamon.pdf
+        title: Explore Rust Programming
+        link: assets/Certificate of Training - Gabriel Shamon.pdf
         link_text: Certificate
         caption: 2024~
         quote: >
           Rust is een systeemtaal die is ontworpen om veilige en efficiënte software te maken.
         description: | # this will include new lines to allow paragraphs
           In deze training heb ik kennis gemaakt met de basisprincipes van Rust en geleerd hoe ik veilige en efficiënte software kan ontwikkelen met deze taal. Ik heb ervaring opgedaan met het schrijven van code in Rust, het compileren van programma's en het gebruik van de Rust-toolchain. Deze training heeft mijn kennis en vaardigheden in Rust versterkt en mij in staat gesteld om complexe softwareoplossingen te ontwikkelen met deze taal.
+      - layout: left
+        title: Online Certifications (Coursera, Google, DeepLearning.AI, Microsoft)
+        caption: 2024 - 2025
+        quote: >
+          Uitgebreide portfolio van professionele certificeringen in AI, data science, machine learning en soft skills.
+        description: | # this will include new lines to allow paragraphs
+          **Specializations:**
+          - [IBM Data Science Specialization](assets/Coursera ELTFEVMZD0O7.pdf)
+          - [IBM AI Foundations for Business Specialization](assets/Coursera TNUFR0L2PTXD.pdf)
+          - [DeepLearning.AI TensorFlow Developer Specialization](assets/Coursera 24JKU7JAO9B6.pdf)
+          - [Google Data Analytics Specialization](assets/Coursera WCRNEFHVF7NN.pdf)
+          - [People and Soft Skills for Professional Success Specialization](assets/Coursera EP1NSYJD24XC.pdf)
+          
+          **AI & Machine Learning:**
+          - [Generative AI: Elevate Your Data Science Career (IBM)](assets/Coursera 14A4U7FBRPBJ.pdf)
+          - [Introduction to Artificial Intelligence (IBM)](assets/Coursera 4FAWUCKTKVEU.pdf)
+          - [Vector Databases (IBM)](assets/Coursera 3SK1LPAIO61S.pdf)
+          - [The AI Ladder: Framework for Deploying AI in Enterprise (IBM)](assets/Coursera 8IA3DS49UB0C.pdf)
+          - [Introduction to TensorFlow for AI, ML, and Deep Learning](assets/Coursera SMOCLQ5PLJF4.pdf)
+          - [Convolutional Neural Networks in TensorFlow](assets/Coursera S1XK1T7B1Z2U.pdf)
+          - [Natural Language Processing in TensorFlow](assets/Coursera WXVR5WC7C4GQ.pdf)
+          - [Sequences, Time Series and Prediction](assets/Coursera 6TRJ2NTOJOHR.pdf)
+          
+          **Azure & Microsoft:**
+          - [Build and Operate Machine Learning Solutions with Azure](assets/Coursera LAPCSEZGT8JA.pdf)
+          - [Data Analysis and Visualization with Power BI](assets/Coursera EFNF25CTGDQD.pdf)
+          
+          **Google Data Analytics:**
+          - [Google Data Analytics Capstone: Complete a Case Study](assets/Coursera 6310F0YM8NC0.pdf)
+          - [Analyze Data to Answer Questions (Google)](assets/Coursera NO5HSED9IHZB.pdf)
+          
+          **Professional Skills:**
+          - [Solving Problems with Creative and Critical Thinking (IBM)](assets/Coursera 771UKWP6MFUS.pdf)
+          - [Developing Interpersonal Skills (IBM)](assets/Coursera C95RQ64C4E5L.pdf)
+          - [Present with Purpose: Create/Deliver Effective Presentations (IBM)](assets/Coursera ASU6VNQSHQEB.pdf)
+          - [Delivering Quality Work with Agility (IBM)](assets/Coursera UBPEZW4TNP52.pdf)
+          - [People and Soft Skills Assessment (IBM)](assets/Coursera Q45VXB02961F.pdf)
 
   - title: Publicaties
     layout: list
